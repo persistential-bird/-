@@ -1,1 +1,83 @@
 
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()//��������Ԫ���±�
+{
+	int arr[] = {1,2,3,4,5,6,7,8,9,10};
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	int k = 0;
+	int left = 0;
+	int right = sz - 1;
+	scanf("%d", &k);
+	while (left<=right)
+	{
+		int mid = (left + right) / 2;
+		if (arr[mid] > k)
+		{
+			right = mid - 1;
+		}
+		else if (arr[mid] < k)
+		{
+			left = mid + 1;
+		}
+		else
+		{
+			printf("�ҵ��ˣ��±��ǣ�%d\n", mid);
+			break;
+		}
+	}
+	if (left > right)
+	{
+		printf("�Ҳ���\n");
+	}
+	return 0;
+}
+//int main()//n�Ľ׳�֮�� ����һ
+//{
+//	int n = 0;
+//	int a = 0;
+//	int b = 0;
+//	int jc = 1;
+//	int sum = 0;
+//	scanf("%d", &n);
+//	for (b = 1;b <= n;b++)
+//	{
+//		jc = 1;
+//		for (a = 1;a <= b;a++)
+//		{
+//			jc = jc * a;
+//		}
+//		sum = sum + jc;
+//	}
+//	printf("sum=%d", sum);
+//	return 0;
+//}
+//int main()//n�Ľ׳�֮�� ������
+//{
+//	int n = 0;
+//	int a = 0;
+//	int jc = 1;
+//	int sum = 0;
+//	scanf("%d", &n);
+//	for (a= 1;a <= n;a++)
+//	{
+//		jc = jc * a;
+//	    sum = sum + jc;
+//    }
+//	printf("sum=%d\n", sum);
+//	return 0;
+//}
+//int main()//n�Ľ׳�
+//{
+//	int a = 0;
+//	int n = 0;
+//	int jc = 1;
+//	int sum = 0;
+//	scanf("%d", &n);
+//	for (a = 1;a < n + 1;a++)
+//	{
+//		jc = jc * a;
+//	}
+//	printf("jc=%d\n", jc);
+//	return 0;
+//}
