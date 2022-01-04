@@ -1,0 +1,180 @@
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>    //쳲��������ļ���  ѭ�����ں����ݹ�
+int fib(int k)
+{
+	int a = 1;
+	int b = 1;
+	int c = 0;
+	while (k > 2)
+	{
+		c = a + b;
+		a = b;
+		b = c;
+		k--;
+	}
+	return c;
+}
+int main()
+{
+	int n = 0;
+	int m = 0;
+	scanf("%d", &n);
+	m = fib(n);
+	printf("m=%d", m);
+	return 0;
+}
+//#include <stdio.h>    //n�Ľ׳˵ĵݹ麯���㷨
+//int fac(int m)
+//{
+//	if (m > 1)
+//	{
+//		return m * fac(m - 1);
+//	}
+//	else
+//		return 1;
+//}
+//int main()
+//{
+//	int n = 0;
+//	int jc = 0;
+//	scanf("%d", &n);
+//	jc = fac(n);
+//	printf("jc=%d", jc);
+//	return 0;
+//}
+//#include <stdio.h>           //��������ʱ�����������������ַ�������
+//#include <string.h>
+//int my_strlen(char* str)
+//{
+//	if (*str != '\0')
+//		return 1 + strlen(str + 1);
+//	else
+//		return 0;
+//}
+//int main()
+//{
+//	char arr[] = "zhaokai";
+//	//int len = strlen(arr);
+//	//printf("len=%d", len);
+//	int len = my_strlen(arr);
+//	printf("len=%d", len);
+//	return 0;
+//}
+//#include <stdio.h>     //����һ����λ���ϵ�������˳����ÿλ����ӡ�������ݹ麯����Ӧ�ã�
+//void print(int n)
+//{
+//	if (n > 9)
+//	{
+//		print(n / 10);
+//	}
+//	printf("%d ",n % 10);
+//}
+//int main()
+//{
+//	unsigned int num = 0;
+//	scanf("%d",&num);
+//	print(num);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	printf("%d", printf("%d", printf("%d", 43)));
+//	return 0;
+//}
+//#include <stdio.h>    //����ÿ����һ�Σ�num��һ
+//void Add(int* p)
+//{
+//	(*p)++;
+//}
+//int main()
+//{
+//	int num = 0;
+//	Add(&num);
+//	printf("num=%d\n", num);
+//	Add(&num);
+//	printf("num=%d\n", num);
+//	Add(&num);
+//	printf("num=%d\n", num);
+//	return 0;
+//}
+//#include <stdio.h>               //���ַ�������������ָ����Ԫ��
+//int binary_search(int brr[], int m, int sz)
+//{
+//	int left = 0;
+//	int right = sz - 1;
+//	while (left <= right)
+//	{
+//		int mid = (left + right) / 2;
+//		if (brr[mid] < m)
+//		{
+//			left = mid + 1;
+//		}
+//		else if (brr[mid] > m)
+//		{
+//			right = mid - 1;
+//		}
+//		else
+//		{
+//			return mid;
+//		}
+//	}
+//	return -1;
+//}
+//int main()
+//{
+//	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
+//	int k = 0;
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	int a = binary_search(arr, k, sz);
+//	scanf("%d", &k);
+//	if (a == -1)
+//	{
+//		printf("�Ҳ���ָ��������\n");
+//	}
+//	else
+//	{
+//		printf("�ҵ��ˣ��±��ǣ�%d\n", a);
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//int is_leap_year(y)
+//{
+//	if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0)
+//		return 1;
+//	else
+//		return 0;
+//}
+//int main()//1000-2000֮�������
+//{
+//	int year = 0;
+//	for (year = 1000;year <= 2000;year++)
+//	{
+//		if (1 == is_leap_year(year))
+//			printf("%d ", year);
+//	}
+//	return 0;
+//}
+//#include <stdio.h>
+//#include <math.h>
+//int is_prime(int m)//100-200֮�������
+//{
+//	int a = 0;
+//	for (a = 2;a < sqrt(m);a++)
+//	{
+//		if (m%a ==0)
+//			return 0;
+//	}
+//	return 1;
+//}
+//int main()
+//{
+//	int n = 0;
+//	for (n = 100;n <= 200;n++)
+//	{
+//		if (is_prime(n) == 1)
+//			printf("%d ", n);
+//	}
+//	return 0;
+//}
