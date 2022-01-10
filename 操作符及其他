@@ -6,7 +6,7 @@
 //	//int count = 0;
 //	scanf("%d", &a);
 //    int count = count_zhao(a);
-//	while (a)
+//	while (a)   //目前最优解
 //	{
 //		count++;
 //		a = a & (a - 1);
