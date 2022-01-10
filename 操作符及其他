@@ -1,15 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int main()  //һ�������洢���ڴ���1�ĸ���
-{
-	int a = 0;
-	int count = 0;
-	scanf("%d", &a);
-	while (a)
-	{
-		count++;
-		a = a & (a - 1);
-	}
+//int main()  //一个整数存储在内存中1的个数
+//{
+//	int a = 0;
+//	//int count = 0;
+//	scanf("%d", &a);
+//    int count = count_zhao(a);
+//	while (a)
+//	{
+//		count++;
+//		a = a & (a - 1);
+//	}
 	//int i = 0;
 	//for (i = 0;i <32;i++)
 	//{
@@ -18,7 +19,7 @@ int main()  //һ�������洢���ڴ���1�ĸ���
 	//		count++;
 	//	}
 	//}
-	//while (a)   //���ܼ��㸺��
+	//while (a)   //不能计算负数
 	//{
 	//	if (a % 2 == 1)
 	//	{
@@ -26,18 +27,31 @@ int main()  //һ�������洢���ڴ���1�ĸ���
 	//		a = a / 2;
 	//	}
 	//}
-	printf("��������1�ĸ���=%d\n", count);
-	return 0;
-}
-//int main()    //��������ʱ����������������ֵ
+	/*printf("二进制中1的个数=%d\n", count);*/
+//	return 0;
+//}
+//int count_zhao(unsigned int n)
+//{
+//	int count = 0;
+//	while (n)   //不能计算负数
+//	{
+//		if (n % 2 == 1)
+//		{
+//			count++;
+//		}
+//		n = n / 2;
+//	}
+//	return count;
+//}
+//int main()    //不创建零时变量交换两个数的值
 //{
 //	int a = 10;
 //	int b = 20;
-//	//���ķ���
+//	//异或的方法
 //	a = a ^ b;
 //	b = a ^ b;
 //	a = a ^ b;
-//	//�Ӽ���    ���ܻ����
+//	//加减法    可能会溢出
 //	/*a = a + b;
 //	b = a - b;
 //	a = a - b;*/
