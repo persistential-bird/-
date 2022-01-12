@@ -1,0 +1,51 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+//void my_strcpy(char* dest, char* src)
+//{
+	while (*src != '\0')
+	{
+		*dest = *src;
+		src++;
+		dest++;
+	}
+	*dest = *src;
+//}
+char* my_strcpy(char* dest,const char* src)//优化后
+{
+	char* ret = dest;
+	assert(dest != '\0');//断言
+	assert(src != '\0');
+	//把src指向的字符拷贝到dest指向的空间，包含'\0'字符
+	while (*dest++ = *src++)
+	{
+		;
+	}
+	return ret;
+}
+int main()   //模拟strcpy函数
+{
+	char arr1[] = "###############";
+	char arr2[] = "zhao";
+	printf("%s\n", my_strcpy(arr1, arr2));
+	return 0;
+}
+
+
+
+int my_strlen(char* str)
+{
+	char* start = str;
+	char* end = str;
+	while (*end != '\0')
+	{
+		end++;
+	}
+	return end - start;
+}
+int main()        //模拟实现strlen函数  指针的方法
+{
+	char arr[] = "zhao";
+	int len = my_strlen(arr);
+	printf("%d\n", len);
+	return 0;
+}
