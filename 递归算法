@@ -67,3 +67,23 @@ int main()   //计算n的k次方  递归算法
 	printf("ret=%lf\n", ret);
 	return 0;
 }
+
+int digitsum(unsigned int num)
+{
+	if (num > 9)
+	{
+		return digitsum(num / 10) + num % 10;
+	}
+	else
+	{
+		return num;
+	}
+}
+int main()   //计算一个数组成它的每个数之和  递归调用
+{
+	unsigned int num = 0;
+	scanf("%d", &num);
+	int ret = digitsum(num);
+	printf("ret=%d\n", ret);
+	return 0;
+}
