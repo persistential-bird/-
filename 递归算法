@@ -1,1 +1,69 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
+int my_strlen(char* arr)
+{
+	char* start = arr;
+	char* end = arr;
+	while (*end != '\0')
+	{
+		end++;
+	}
+	return end - start;
+}
+//void reverse_string(char arr[])  //一般方法
+//{
+//	int left = 0;
+//	int right = my_strlen(arr)-1;
+//	while (left < right)
+//	{
+//		int tmp = arr[left];
+//		arr[left] = arr[right];
+//		arr[right] = tmp;
+//		left ++ ;
+//		right--;
+//	}
+//}
+void reverse_string(char arr[]) //递归算法
+{
+	char tmp = arr[0];
+	int len = my_strlen(arr);
+	arr[0] = arr[len - 1];
+	arr[len - 1] = '\0';
+	if (my_strlen(arr + 1) >= 2)
+		reverse_string(arr + 1);
+	arr[len - 1] = tmp;
+}
+int main()    //将字符串反过来输出
+{
+	char arr[] = "abcdef";
+	reverse_string(arr);
+	printf("%s\n", arr);
+	return 0;
+}
+
+double pow(int n, int k)
+{
+	//n^k=n*n^(k-1)
+	if (k < 0)
+	{
+		return (1.0 / (pow(n, -k)));
+	}
+	else if (k == 0)
+	{
+		return 1;
+	}
+	else
+	{
+		return n * pow(n, k - 1);
+	}
+}
+int main()   //计算n的k次方  递归算法
+{
+	int n = 0;
+	int k = 0;
+	scanf("%d%d", &n, &k);
+	double ret = pow(n, k);
+	printf("ret=%lf\n", ret);
+	return 0;
+}
