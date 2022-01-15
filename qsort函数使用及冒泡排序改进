@@ -6,7 +6,7 @@ int cmp_int(const void*e1, const void*e2)
 {
 	return *(int*)e1 - *(int*)e2;
 }
-void test1()
+void test1()  //整型数据排序
 {
 	int arr[] = { 9,8,7,6,5,4,3,2,1 };
 	int sz = sizeof(arr) / sizeof(arr[0]);
@@ -27,7 +27,7 @@ int cmp_float(const void*e1, const void*e2)
 	//	return -1;
 	return ((int)(*(float*)e1 - *(float*)e2));
 }
-void test2()
+void test2()  //双精度浮点型数据排序
 {
 	float f[] = { 9.0,8.0,7.0,6.0,5.0,4.0,3.0,2.0,1.0 };
 	int sz = sizeof(f) / sizeof(f[0]);
@@ -52,7 +52,7 @@ int cmp_stu_by_name(const void*e1, const void*e2)
 	//比较名字就是比较字符串，不能直接用<=>比较，需用strcmp函数
 	return strcmp((((struct Stu*)e1)->name), (((struct Stu*)e2)->name));
 }
-void test3()
+void test3()  //按结构体内部部分数据排序
 {
 	struct Stu s[3] = { { "zhangsan",20 },{ "lisi",30 },{ "wangwu",10 } };
 	int sz = sizeof(s) / sizeof(s[0]);
@@ -100,7 +100,7 @@ void buble_sort(void*base, int sz, int width, int(*cmp)(void*e1, void*e2))  //�
 		}
 	}
 }
-void test4()
+void test4()   //冒泡排序法排序整型数据
 {
 	int arr[] = { 9,8,7,6,5,4,3,2,1 };
 	int sz = sizeof(arr) / sizeof(arr[0]);
@@ -111,7 +111,7 @@ void test4()
 		printf("%d ", arr[j]);
 	}
 }
-void test5()
+void test5()  //冒泡排序法排序结构体内部数据
 {
 	struct Stu s[3] = { { "zhangsan",20 },{ "lisi",30 },{ "wangwu",10 } };
 	int sz = sizeof(s) / sizeof(s[0]);
