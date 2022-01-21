@@ -187,7 +187,7 @@ int main()//使用strtok函数
 	}
 }
 
-int main() 
+int main()//使用字符分类函数及字符转换
 {
 	//char ch = '2';
 	// int ret = islower(ch);
