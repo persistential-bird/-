@@ -231,7 +231,7 @@ void* my_memcpy(void* dest, const void* src, int num)
 	return ret;
 
 }
-int main()
+int main()//模拟使用memcpy函数
 {
     int arr1[] = { 1,2,3,4,5 };
     int arr2[5] = { 0 };
