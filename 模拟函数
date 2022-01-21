@@ -74,12 +74,12 @@ char* my_strcat(char* dest, const char* src)
 	char* ret = dest;
 	assert(dest);
 	assert(src != NULL);
-	// //1.找到目的字符串的'\0'
+	//1.找到目的字符串的'\0'
 	while (*dest != '\0')
 	{
 		dest++;
 	}
-	// //2.追加
+	//2.追加
 	while (*dest++ = *src++)
 	{
 	    ;
@@ -98,7 +98,7 @@ int main()//模拟使用strcat函数
 int my_strcmp(const char* str1, const char* str2)
 {
 	assert(str1 && str2);
-	// //比较
+	//比较
 	while (*str1 == *str2)
 	{
 		if (*str1 == '\0')
