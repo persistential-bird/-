@@ -318,7 +318,7 @@ void* my_memmove(void* dest, const void*src, size_t num)
 	return ret;
 }
 
-int main()//VS库函数运行版
+int main()//VS库函数运行版memmove函数模拟
 {
 	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
 	int i = 0;
@@ -350,7 +350,7 @@ int main()//使用memset函数
 	//memset(arr, '#',10);
 	int arr[10] ={ 0 };//40个字节
 	int i = 0;
-	//01 01 01 01 01 01 01 01 01 01 00 0e 00 00 00 ...
+	//01 01 01 01 01 01 01 01 01 01 00 00 00 00 00 ...
 	memset(arr, 1,10);
 	for (i = 0; i < 10; i++)
 	{
