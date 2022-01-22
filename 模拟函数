@@ -318,7 +318,7 @@ void* my_memmove(void* dest, const void*src, size_t num)
 	return ret;
 }
 
-int main()
+int main()//VS库函数运行版
 {
 	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
 	int i = 0;
