@@ -73,11 +73,27 @@ struct s
 	int i;
 	double d;
 };
-int main()
+int main()//计算成员相对于结构体的偏移量
 {
 	// offsetof();
 	printf("%d\n", offsetof(struct s, c));//0
 	printf("%d\n", offsetof(struct s, i));//4
 	printf("%d\n", offsetof(struct s, d));//8
+	return 0;
+}
+
+//位段-二进制位
+struct S
+{
+	int a : 2;
+	int b : 5;
+	int c : 18;
+	int d : 30;
+};
+// 47bit - 6个字节 * 8 = 48bit
+int main()
+{
+	struct S s;
+	printf("%d\n", sizeof(s)); //8个字节
 	return 0;
 }
