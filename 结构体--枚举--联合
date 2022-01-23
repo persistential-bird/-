@@ -105,3 +105,26 @@ int main()
 4.当一个结构包含两个位段，第二个位段成员比较大，无法容纳于第一个位段剩余的位时, 是舍弃剩余的位还是利用, 这是不确定的。
 总结 :
 跟结构相比，位段可以达到同样的效果，但是可以很好的节省空间，但是有跨平台的问题存在。
+
+
+//枚举类型
+enum SeX
+{
+	//枚举的可能取值--常量 
+	MALE = 2,
+    FEMALE = 4, 
+	SECRET = 8
+};
+enum coiar
+{
+	RED, //0
+	GREEN,//1
+	BLUE//2
+};
+int main()
+{
+	//enum Sex s = MALE;
+	//enum Color c =BLUE;
+	printf("%d %d %d\n", RED, GREEN, BLUE);
+	printf("%d %d %d\n", MALE, FEMALE, SECRET);
+}
