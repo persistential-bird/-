@@ -48,3 +48,36 @@ int main()//结构体内存对齐
 ⒉性能原因:数据结构(尤其是栈)应该尽可能地在自然边界上对齐。原因在于，为了访问未对齐的内存，处理器需要作两次内存访问;而对齐的内存访问仅需要一次访问。
 总体来说:
 结构体的内存对齐是拿空间来换取时间的做法。
+
+//设量默认对齐数位4
+#pragma pack(4)
+struct S
+{
+	char c1;//1 
+	// 7
+	double d;//8
+};
+#pragma pack()
+//取消设宣的默认对齐数
+int main()
+{
+	struct S s;
+	printf("%d\n", sizeof(s));//12
+	return 0;
+}
+
+#include <stddef.h>
+struct s
+{
+	char c;
+	int i;
+	double d;
+};
+int main()
+{
+	// offsetof();
+	printf("%d\n", offsetof(struct s, c));//0
+	printf("%d\n", offsetof(struct s, i));//4
+	printf("%d\n", offsetof(struct s, d));//8
+	return 0;
+}
