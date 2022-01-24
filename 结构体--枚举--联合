@@ -158,7 +158,7 @@ union Un
 	int a;//4 8 4
 	char arr[5];//5  1 8 1
 };
-int main()
+int main()//计算联合内存大小
 {
 	union Un u;
 	printf("%d\n", sizeof(u));//8
