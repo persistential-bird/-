@@ -135,3 +135,20 @@ int main()
 3.防止了命名污染（封装)
 4.便于调试
 5.使用方便，一次可以定义多个常量
+
+//联合体（共用体）
+union Un
+{
+	char c;//1
+	int i;// 4
+};
+//5个学节
+int main()//不可同时调用c和i
+{
+	union Un u;
+	printf("%d\n", sizeof(u));
+	printf("%p\n", &u);
+	printf("%p\n", &(u.c));
+	printf("%p\n", &(u.i));
+	return 0;
+}
