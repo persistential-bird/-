@@ -152,3 +152,15 @@ int main()//不可同时调用c和i
 	printf("%p\n", &(u.i));
 	return 0;
 }
+
+union Un
+{
+	int a;//4 8 4
+	char arr[5];//5  1 8 1
+};
+int main()
+{
+	union Un u;
+	printf("%d\n", sizeof(u));//8
+	return 0;
+}
