@@ -64,8 +64,7 @@ void sortcontact(struct contact* ps);
 
 contact.c
 #define  _CRT_SECURE_NO_WARNINGS 1
-#include <stdio.h>
-#include <string.h>
+
 #include "contact.h"
 
 void initcontact(struct contact* ps)
