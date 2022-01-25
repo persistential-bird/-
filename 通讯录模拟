@@ -261,8 +261,7 @@ void sortcontact(struct contact* ps)
 
 test.c
 #define  _CRT_SECURE_NO_WARNINGS 1
-#include <stdio.h>
-#include <string.h>
+
 #include "contact.h"
 void menu()
 {
