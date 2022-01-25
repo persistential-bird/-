@@ -289,22 +289,22 @@ int main()
 		scanf(" %d", &input);
 		switch (input)
 		{
-		case 1:
+		case Add:
 			addcontact(&con);
 			break;
-		case 2:
+		case Del:
 			delcontact(&con);
 			break;
-		case 3:
+		case Search:
 			searchcontact(&con);
 			break;
-		case 4:
+		case Modify:
 			modifycontact(&con);
 			break;
-		case 5:
+		case Show:
 			showcontact(&con);
 			break;
-		case 6:
+		case Sort:
 			sortcontact(&con);
 			break;
 		case 0:
