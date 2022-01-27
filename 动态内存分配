@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <errno.h>
-int main() 
+int main()//malloc函数使用
 {
 	//向内存申请10个整形的空间
 	int* p = (int*)malloc(40);
