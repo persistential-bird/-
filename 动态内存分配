@@ -106,3 +106,20 @@ int main()//realloc函数使用
 }
 
 动态内存函数使用常见错误：
+int main()
+{
+	//1．对NULL进行解引用操作
+    int *p = (int*)malloc(40);
+    //万一malloc失败了,p就被赋值为NULL
+	*p =0;//err
+
+    int i = 0;
+	for (i = 0; i < 10;i++)
+	{
+		*(p + i) = i; //err
+	}
+	free(p); 
+	p = NULL;
+
+	return 0;
+}
