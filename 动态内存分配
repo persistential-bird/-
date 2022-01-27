@@ -104,3 +104,5 @@ int main()//realloc函数使用
 	return 0;
 
 }
+
+动态内存函数使用常见错误：
