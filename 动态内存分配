@@ -55,6 +55,8 @@ int main()//calloc函数使用
 	return 0;
 }
 
+realloc
+调整动态开辟内存空间的大小
 
 int main()//realloc函数使用
 {
