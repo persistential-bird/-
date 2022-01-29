@@ -1,1 +1,17 @@
 
+char *GetMemory(void) 
+{
+	char p[] = "hello world";
+	return p;
+}
+void Test(void) 
+{
+	char *str = NULL;
+	str = GetMemory();
+	printf(str);
+}
+int main()//栈区内存销毁 程序err
+{
+	Test();
+	return 0;
+}
