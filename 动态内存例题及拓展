@@ -20,3 +20,24 @@ int main()//栈区内存销毁 程序err
 	Test();
 	return 0;
 }
+
+
+void GetMemory(char **p, int num) 
+{
+	*p = (char *)malloc(num);
+}
+void Test(void)
+{
+	char *str = NULL;
+	GetMemory(&str,100);
+	strcpy(str, "hello");
+	printf(str);
+	//改
+	free(str);
+	str = NULL;
+}
+int main()//存在内存泄漏
+{
+	Test();
+	return 0;
+}
