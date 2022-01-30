@@ -41,3 +41,21 @@ int main()//存在内存泄漏
 	Test();
 	return 0;
 }
+
+void Test(void) 
+{
+	char *str = (char *)malloc(100);
+	strcpy(str, "hello");
+	free(str);//free释放str指向的空间后，并不会把str置为NULL
+	//str = NULL;// 改
+	if (str != NULL) //越界访问
+	{
+		strcpy(str, "world");
+		printf(str);
+	}
+}
+int main()
+{
+	Test();
+	return 0;
+}
