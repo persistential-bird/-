@@ -110,7 +110,7 @@ int main()
 struct S
 {
 	int n;
-	int* arr;
+	int* arr;//柔性数组指针形式
 };
 int main()
 {
