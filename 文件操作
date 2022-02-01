@@ -11,3 +11,16 @@ int main()//数据的组织形式
 
 	return 0;
 }
+
+struct _iobuf//FILE结构体
+{
+	char *_ptr;
+    int _cnt;
+	char *_base;
+    int fIag;
+    int file;
+	int _charbuf;
+    int _bufsiz;
+    char *_tmpfname;
+};
+typedef struct _iobuf FILE;
