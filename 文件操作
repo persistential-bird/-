@@ -89,3 +89,10 @@ int main()//fgetc函数使用
 
 	return 0;
 }
+
+int main()
+{
+	int ch = fgetc(stdin);//字符输入
+	fputc(ch,stdout);//字符输出
+	return 0;
+}
