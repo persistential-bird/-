@@ -66,6 +66,22 @@ int main()
 	return 0;
 }
 
+typedef struct 
+{
+	int a;//0-3 4
+	char b;//4 1
+    //5
+	short c;//6-7 2
+	short d;//8-9 2
+	//10-11
+}AA_t;
+//12个字节
+int main()
+{
+	printf("%d\n", sizeof(AA_t)); //12
+	return 0;
+}
+
 #include <stddef.h>
 struct s
 {
