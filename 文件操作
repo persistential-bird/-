@@ -71,7 +71,7 @@ int main()//fputc函数使用
 	return 0;
 }
 
-int main()
+int main()//fgetc函数使用
 {
 	FILE* pfRead = fopen("test.txt","r");
 	if (pfRead == NULL)
