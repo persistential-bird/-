@@ -96,3 +96,13 @@ int main()
 	fputc(ch,stdout);//字符输出
 	return 0;
 }
+
+从键盘输入
+输出到屏幕
+键盘&屏幕都是外部设备
+键盘 - 标准输入设备 - stdin
+屏幕 - 标准输出设备 - stdout
+是一个程序默认打开的两个流设备
+stdin FILE*
+stdout FILE*
+stderr FILE*
