@@ -128,7 +128,7 @@ int main()//fgets函数使用
 	return 0;
 }
 
-int main() 
+int main()//fputs函数使用
 {
 	char buf[1024] = { 0 };
 	FILE* pf = fopen("test.txt", "w");
