@@ -106,3 +106,24 @@ int main()
 stdin FILE*
 stdout FILE*
 stderr FILE*
+
+int main()
+{
+	char buf[1024] = { 0 };
+	FILE* pf = fopen("test.txt", "r");
+	if (pf == NULL)
+	{
+		return 0;
+	}
+	//读文件
+	fgets(buf, 1024, pf);//文本行输入
+	//printf("%s", buf);
+	puts(buf);
+	fgets(buf, 1024, pf);
+	//printf("%s",buf);
+	puts(buf);//两种写法等同
+
+	fclose(pf);
+	pf = NULL;
+	return 0;
+}
