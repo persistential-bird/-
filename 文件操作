@@ -107,7 +107,7 @@ stdin FILE*
 stdout FILE*
 stderr FILE*
 
-int main()//fgets函数使用
+int main()//文本输入函数fgets函数使用
 {
 	char buf[1024] = { 0 };
 	FILE* pf = fopen("test.txt", "r");
