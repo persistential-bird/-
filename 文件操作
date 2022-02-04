@@ -52,7 +52,7 @@ int main()
     return 0;
 }
 
-int main()//fputc函数使用
+int main()//字符输出函数fputc函数使用
 {
 	FILE* pfWrite = fopen("test.txt", "w");
 	if (pfWrite == NULL)
