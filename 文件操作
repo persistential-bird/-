@@ -152,7 +152,7 @@ struct S
 	float score;
 	char arr[10];
 };
-int main()
+int main()//fprintf函数使用
 {
 	struct S s = { 100, 3.14f, "bit" };
 	FILE* pf = fopen("test.txt", "w");
