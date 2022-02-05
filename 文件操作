@@ -174,7 +174,7 @@ struct S
 	float score;
 	char arr[10];
 };
-int main()
+int main()//fscanf函数使用
 {
 	struct S s = { 0 };
 	FILE* pf = fopen("test.txt", "r");
