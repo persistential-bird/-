@@ -191,3 +191,17 @@ int main()//格式化输入函数fscanf函数使用
 
 	return 0;
 }
+
+struct S
+{
+	int n;
+	float score;
+	char arr[10];
+};
+int main() 
+{
+	struct S s = { 0 };
+	fscanf(stdin, "%d %f %s", &(s.n),&(s.score), s.arr);//格式化输入
+	fprintf(stdout, "%d %.2f %s", s.n, s.score, s.arr);//格式化输出
+	return 0;
+}
