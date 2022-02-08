@@ -114,6 +114,25 @@ int main()
 	return 0;
 }
 
+int main()//位段
+{
+	unsigned char puc[4];
+	struct tagPIM
+	{
+		unsigned char ucPim1;
+		unsigned char ucData0 : 1;
+		unsigned char ucData1 : 2;
+		unsigned char ucData2 : 3;
+	}*pstPimData;
+	pstPimData = (struct tagPIM*)puc;
+	memset(puc, 0, 4);
+	pstPimData->ucPim1 = 2;//010 ->010
+	pstPimData->ucData0 = 3;//011 ->1
+	pstPimData->ucData1 = 4;//100 ->00
+	pstPimData->ucData2 = 5;//101 ->101
+	printf("%02x %02x %02x %02x\n", puc[0], puc[1], puc[2], puc[3]);//0000 0010 0010 1001 0000 0000
+	return 0;                                                       // 0    2    2     9   0    0
+}
 位段的跨平台问题
 1.int 位段被当成有符号数还是无符号数是不确定的。
 2位段中最大位的数目不能确定。(.16位机器最大16，32位机器最大32，写成27，在16位机器会出问题。
