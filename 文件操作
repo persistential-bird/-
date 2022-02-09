@@ -230,3 +230,26 @@ scanf/printf是针对标准输入流/标准输出流的格式化输入/输出语
 fscanf/fprintf是针对所有输入流/所有输出流的格式化输入/输出语句
 sscanf/sprintf sscanf是从字符串中读取格式化的数据
                sprintf是把格式化数据输出成(存储到)字符串
+
+struct S
+{
+	char name[20];
+  int age;
+	double score;
+};
+int main()
+{
+	struct S s = { "张三",20,55.6 };
+	FILE* pf = fopen("test.txt", "wb");
+	if (pf == NULL)
+	{
+		return 0;
+	}
+	//二进制的形式写文件
+	fwrite(&s, sizeof(struct S),1, pf);
+
+
+	fclose(pf);
+	pf = NULL;
+	return 0;
+}
