@@ -237,7 +237,7 @@ struct S
   int age;
 	double score;
 };
-int main()//二进制输出函数
+int main()//二进制输出函数fwrite函数使用
 {
 	struct S s = { "张三",20,55.6 };
 	FILE* pf = fopen("test.txt", "wb");
