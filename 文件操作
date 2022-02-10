@@ -260,7 +260,7 @@ struct S
 	int age;
 	double score;
 };
-int main()//
+int main()//二进制输入函数fread函数使用
 {
 	//struct Ss={“张三"，20,55.6};
 	struct S tmp = { 0 };
