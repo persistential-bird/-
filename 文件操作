@@ -253,3 +253,4 @@ int main()//二进制输出函数fwrite函数使用
 	pf = NULL;
 	return 0;
 }
+
