@@ -277,7 +277,7 @@ int main()//二进制输入函数fread函数使用
 	return 0;
 }
 
-int main()//文件随机读写函数
+int main()//文件随机读写函数fseek函数使用
 {
 	FILE* pf = fopen("test.txt", "r");
 	if (pf == NULL)
