@@ -271,6 +271,7 @@ int main()//二进制输入函数fread函数使用
 	//二进制的形式都文件
 	fread(&tmp, sizeof(struct S), 1, pf);
 	printf("%s %d %1f\n", tmp.name, tmp.age, tmp.score);
+	
 	fclose(pf);
 	pf = NULL;
 	return 0;
