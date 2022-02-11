@@ -234,7 +234,7 @@ sscanf/sprintf sscanf是从字符串中读取格式化的数据
 struct S
 {
 	char name[20];
-  int age;
+        int age;
 	double score;
 };
 int main()//二进制输出函数fwrite函数使用
@@ -289,6 +289,7 @@ int main()
 	//2.读取文件
 	int ch = fgetc(pf);
 	printf("%c\n", ch);
+	
 	fclose(pf);
 	pf = NULL;
 	return 0;
