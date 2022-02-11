@@ -295,3 +295,18 @@ int main()
 	return 0;
 }
 
+int main()
+{
+	FILE* pf = fopen("test.txt", "r");
+	if (pf == NULL)
+	{
+		return 0;
+	}
+	//1.定位文件指针
+	fseek(pf, -2, SEEK_END);
+	int pos = ftell(pf);//相对于起始位置的偏移量
+	printf("%d\n", pos);//4
+	fclose(pf);
+	pf = NULL;
+  return 0;
+}
