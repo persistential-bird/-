@@ -248,7 +248,6 @@ int main()//二进制输出函数fwrite函数使用
 	//二进制的形式写文件
 	fwrite(&s, sizeof(struct S),1, pf);
 
-
 	fclose(pf);
 	pf = NULL;
 	return 0;
