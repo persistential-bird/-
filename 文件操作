@@ -312,7 +312,7 @@ int main()//读取相对于起始位置的偏移量ftell函数使用
         return 0;
 }
 
-int main()
+int main()//让文件指针rewind函数使用
 {
 	FILE* pf = fopen("test.txt","r");
 	if (pf == NULL)
