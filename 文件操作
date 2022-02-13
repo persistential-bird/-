@@ -342,7 +342,7 @@ int main()
 	if (pf == NULL)
 		return 0;
 	int ch = fgetc(pf);
-	printf("%d\n",ch);//-1
+	printf("%d\n",ch);//文件为空，fgetc函数返回值为-1
 
 	fclose(pf);
 	pf = NULL;
