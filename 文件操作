@@ -333,3 +333,18 @@ int main()//让文件指针回到起始位置rewind函数使用
 	pf = NULL;
 	return 0;
 }
+
+int main()
+{
+	//EOF
+	//feof() ://EOF - end of file-文件结束标志
+	FILE* pf = fopen("test.txt","r");//此时文件为空
+	if (pf == NULL)
+		return 0;
+	int ch = fgetc(pf);
+	printf("%d\n",ch);//-1
+
+	fclose(pf);
+	pf = NULL;
+	return 0;
+}
