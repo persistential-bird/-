@@ -348,6 +348,7 @@ int main()
 	pf = NULL;
 	return 0;
 }
+
 int main()
 {
 	int c; // 注意:int, 非char，要求处理EOF
