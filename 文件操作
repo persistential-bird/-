@@ -349,7 +349,7 @@ int main()
 	return 0;
 }
 
-int main()//
+int main()//EOF正确用法 feof函数和ferror函数使用
 {
 	int c; // 注意:int, 非char，要求处理EOF
 	FILE* fp = fopen("test.txt", "r");
