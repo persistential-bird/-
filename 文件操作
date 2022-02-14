@@ -349,7 +349,7 @@ int main()
 	return 0;
 }
 
-int main()
+int main()//
 {
 	int c; // 注意:int, 非char，要求处理EOF
 	FILE* fp = fopen("test.txt", "r");
@@ -362,7 +362,7 @@ int main()
 	while ((c = fgetc(fp)) != EOF)//标准C I/0读取文件循环
 	{
 		putchar(c);
-    }
+        }
 	// 判断是什么原因结束的
 	if(ferror(fp))
 		puts("I/0 error when reading");
