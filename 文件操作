@@ -373,3 +373,21 @@ int main()//EOF正确用法 feof函数和ferror函数使用
 	fp = NULL;
 	return 0;
 }
+int main()
+{
+	// strerror - 把错误码对应的锚误信息的字符串地址返回
+	//printf("%s\n", strerror(enrno));
+
+	//perror使用
+	FILE* pf = fopen("test2.txt", "r");
+	if (pf == NULL)
+	{
+		perror("open file test2.txt");
+		return 0;
+	}
+	//读文件
+
+	fclose(pf);
+	pf = NULL;
+	return 0;
+}
