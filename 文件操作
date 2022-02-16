@@ -392,6 +392,7 @@ int main()
 	pf = NULL;
 	return 0;
 }
+
 enum { SIZE = 5 };
 int main(void)//二进制文件读取feof判断
 {
