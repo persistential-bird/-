@@ -392,3 +392,27 @@ int main()
 	pf = NULL;
 	return 0;
 }
+enum { SIZE = 5 };
+int main(void)//二进制文件读取feof判断
+{
+	double a[SIZE] = { 1.0,2.0,3.0,4.0,5.0 };
+	double b = 0.0;
+	size_t ret_code = 0;
+	FILE*fp = fopen("test.bin","wb");// 必须用二进制模式
+	fwrite(a, sizeof(*a),SIZE,fp);//写doubte的数组
+	fclose(fp);
+
+	fp = fopen("test.bin", "rb");
+	//读doub1e的数组
+	while ((ret_code = fread(&b,sizeof(double),1,fp)) >= 1) 
+	{
+		printf("%1f\n", b);
+	}
+	if (feof(fp))
+		printf("Error reading test.bin: unexpected end of fi1e\n");
+	else if (ferror(fp))
+		perror("Error reading test.bin");
+
+	fclose(fp);
+	fp = NULL;
+}
