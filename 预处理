@@ -5,4 +5,27 @@
 //组成一个程序的每个源文件通过编译过程分别转换成目标代码(object code)
 //每个目标文件由链接器(llnker ）捆绑在一起, 形成一个单一而完整的可执行程序。
 //链接器同时也会引入标准c函数库中任何被该程序折用到的函数，而且它可以搜索程序员个人的程序库将其需要的函数也链接到程序中。
+int main()
+{
+	//printf("%s\n",__FILE___);
+	//printf("%d\n",__LINE___);
+	//printf("%s\n",__DATE__);
+	//printf("%s\n",__TIME__);
+	//写日志文件
+	int i = 0;
+	int arr[10] = { 0 };
+	FILE* pf = fopen("log.txt", "w");
+	for (i = 0; i < 10;i++)
+	{
+		arr[i] = i;
+		fprintf(pf, "file:%s line:%d date:%s time:%s i=%dyn",__FILE__, __LINE__, __DATE__,__TIME__, i);
+	}
+	fclose(pf);
+	pf = NULL;
+	for (i = 0; i < 10;i++)
+	{
+		printf("%d ", arr[i]);
+	}
 
+	return 0;
+}
