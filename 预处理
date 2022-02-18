@@ -39,3 +39,12 @@ __TIME__  // 文件被编译的时间
 __STDC__  // 如果编译器遵循ANSJ C.其值为1，否则未定义
 这些预定义符号都是语言内置的。举个栗子 :
 printf("file:%s line:%d\n",__FILE__, __LINE__);
+//#define MAx 1000
+//#define reg register        // 为 register这个关键字，创建一个简短的名字
+//#define do_forever for(;;)  //用更形象的符号来替换一种实现
+//#define CASE break;case     //在写case语句的时候直动把 break写上。
+////如果定义的stuff过长，可以分成几行写,除了最后一行外，每行的后面都加一个反斜杠(续行符)。
+//#define DEBUG_PRINT printf("file:%s\tline:%d\t  \
+//                          date:%s\ttime:%s\n",  \
+//	                      __FILE__,__LINE__,    \
+//	                      __DATE__,__TIME__)
