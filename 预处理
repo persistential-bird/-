@@ -49,3 +49,11 @@ printf("file:%s line:%d\n",__FILE__, __LINE__);
                           date:%s\ttime:%s\n",  \
 	                      __FILE__,__LINE__,    \
 	                      __DATE__,__TIME__)
+#define定义宏
+#define机制包括了一个规定，允许把参数替换到文本中, 这种实现通常称为左(macro)或定义宏(define macro). ..
+下面是宏的申明方式:
+#define name( parament-1ist ) stuff 其中的parament-list是一个由逗号隔开的符号表，它们可能出现在stuff中,
+数
+注意 : 参数列表的左括号必须与name紧邻。如果两者之间有任何空白存在，参数列表就会被解释为stuff的一部分。
+如︰
+#define SQUARE(x) x*x
