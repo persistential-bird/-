@@ -68,4 +68,17 @@ printf("file:%s line:%d\n",__FILE__, __LINE__);
 注意:
 1.宏参数和#define定义中可以出现其他#define定义的变量。但是对于宏，不能出现递归。
 2.当预处理器搜索#define定义的符号的时候，字符串常量的内容并不被搜索。
-
+#define PRINT(x) printf("the value of "#x" is %d\n",x)
+int main()
+{
+	//printf("hello world\n");
+	//printf("hello""world\n");
+	//printf("hel""1o""wonld\n");
+	int a = 10;
+	int b = 20;
+	PRINT(a);
+	//printf( "the value of""a""is %d\n",a);
+	PRINT(b);
+	//printf( "the value of""b""is %d\n",b);
+	return 0;
+}
