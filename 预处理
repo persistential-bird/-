@@ -70,7 +70,7 @@ printf("file:%s line:%d\n",__FILE__, __LINE__);
 2.当预处理器搜索#define定义的符号的时候，字符串常量的内容并不被搜索。
 
 #define PRINT(x) printf("the value of "#x" is %d\n",x)
-int main()
+int main()//
 {
 	//printf("hello world\n");
 	//printf("hello""world\n");
