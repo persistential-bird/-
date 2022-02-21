@@ -84,3 +84,13 @@ int main()//define宏定义实例(可在语句中使用各种成员名)
 	return 0;
 }
 
+#define CAT(X,Y) X##Y
+int main()
+{
+	int Class84 = 2019;
+	// printf("%d\n", Class84);
+	printf("%d\n", CAT(Class, 84));
+	//printf("%d\n", C1ass##84);
+	//printf("%d\n".Class84);
+	return 0;
+}
