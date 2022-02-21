@@ -83,3 +83,4 @@ int main()//define宏定义实例(可在语句中使用各种成员名)
 	//printf( "the value of""b""is %d\n",b);
 	return 0;
 }
+
