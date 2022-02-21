@@ -85,7 +85,7 @@ int main()//define宏定义实例(可在语句中使用各种成员名)
 }
 
 #define CAT(X,Y) X##Y
-int main()
+int main()//
 {
 	int Class84 = 2019;
 	// printf("%d\n", Class84);
