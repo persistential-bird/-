@@ -101,3 +101,14 @@ int main()//##可把它两边的符号合成为一个符号
 x + 1;//不带副作用
 X++;//带有副作用
 MAX宏可以证明具有副作用的参数所引起的问题
+#define MAX(X, Y) ((X) > (Y) ? (X) : (Y))
+int main()
+{
+	int a = 10;int b = 11;
+	int max = MAX(a++, b++);//等同下列
+	//int max = ((a++) > (b++) ? (a++) : (b++));
+	printf("%d\n", max);//12
+	printf("%d\n", a);//11
+	printf("%d\n",b);//13
+	return 0;
+}
