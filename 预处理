@@ -114,3 +114,35 @@ int main()//宏定义副作用实例
 	printf("%d\n",b);//13
 	return 0;
 }
+// 函数 
+int Max(int x, int y)
+{
+	return(x > y ? x : y);
+}
+float Max2(float x, float y) 
+{
+	return (x > y ? x : y);
+}
+//宏
+#define MAX(X,Y) ((X)>(Y)?(X):(Y))
+int main()
+{
+	int a = 10;
+	int b = 20;
+	float c = 3.0f;
+	float d = 4.0f;
+	//函数在调用的时候
+	//会有函数调用和返回的开销/ /
+	float max = Max2(c,d);
+	printf("max = %f\n", max);
+	//预处理阶段就完成了替换
+	//没有函数的调用和返回的开销
+	max = MAX(c,d);
+	//max = ((c) > (d) ? (c) : (d));
+	printf("max = %f\n", max);
+	/*int max = Max(a,b);
+	printf( "max = %d\n", max);
+	max = MAX(a,b);
+	printf("max = %d\n",max);*/
+	return 0;
+}
