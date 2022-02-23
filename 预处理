@@ -126,7 +126,7 @@ float Max2(float x, float y)
 }
 //宏
 #define MAX(X,Y) ((X)>(Y)?(X):(Y))
-int main()
+int main()//
 {
 	int a = 10;
 	int b = 20;
