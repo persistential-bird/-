@@ -140,9 +140,9 @@ int main()
 	max = MAX(c,d);
 	//max = ((c) > (d) ? (c) : (d));
 	printf("max = %f\n", max);
-	/*int max = Max(a,b);
-	printf( "max = %d\n", max);
-	max = MAX(a,b);
-	printf("max = %d\n",max);*/
+	//int max = Max(a,b);
+	//printf( "max = %d\n", max);
+	//max = MAX(a,b);
+	//printf("max = %d\n",max);
 	return 0;
 }
