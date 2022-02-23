@@ -114,6 +114,7 @@ int main()//宏定义副作用实例
 	printf("%d\n",b);//13
 	return 0;
 }
+
 // 函数 
 int Max(int x, int y)
 {
