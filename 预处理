@@ -147,3 +147,11 @@ int main()//
 	//printf("max = %d\n",max);
 	return 0;
 }
+#define MALLOC(num,type) (type*)malloc(num*sizeof(type))
+int main()
+{
+	int* p = (int*)malloc(10 * sizeof(int));
+	int* p = MALLOC(10, int);//等同下列
+	//int* p = (int*)mallocf(10 * sizeof(int));
+	return 0;
+}
