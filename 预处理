@@ -156,3 +156,10 @@ int main()//宏定义模拟任意类型动态存储
 	//int* p = (int*)mallocf(10 * sizeof(int));
 	return 0;
 }
+
+宏有时候可以做函数做不到的事情。比如:宏的参数可以出现类型，但是函数做不到。
+#define MALLOC(num, type) (type * )ma11oc(num * sizeof(type))
+	//使用
+	MALLOC(10, int);//类型作为参数
+	//预处理器替换之后:
+	(int *)malloc(10 * sizeof(int));
