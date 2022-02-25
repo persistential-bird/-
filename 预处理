@@ -163,3 +163,4 @@ int main()//宏定义模拟任意类型动态存储
 	MALLOC(10, int);//类型作为参数
 	//预处理器替换之后:
 	(int *)malloc(10 * sizeof(int));
+
