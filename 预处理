@@ -164,3 +164,11 @@ int main()//宏定义模拟任意类型动态存储
 	//预处理器替换之后:
 	(int *)malloc(10 * sizeof(int));
 
+#define MAX 100
+int main()
+{
+	printf("MAX =%d\n", MAX);
+#undef MAX//移除宏定义指令
+		printf("MAX = %d\n", MAX);//已移除
+	return 0;
+}
