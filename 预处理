@@ -149,7 +149,7 @@ int main()//
 }
 
 #define MALLOC(num,type) (type*)malloc(num*sizeof(type))
-int main()//
+int main()//宏定义模拟任意类型动态存储
 {
 	int* p = (int*)malloc(10 * sizeof(int));
 	int* p = MALLOC(10, int);//等同下列
