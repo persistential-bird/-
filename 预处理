@@ -169,6 +169,6 @@ int main()
 {
 	printf("MAX =%d\n", MAX);
 #undef MAX//移除宏定义指令
-		printf("MAX = %d\n", MAX);//已移除
+	printf("MAX = %d\n", MAX);//已移除
 	return 0;
 }
