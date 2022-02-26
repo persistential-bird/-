@@ -172,6 +172,7 @@ int main()//#undef定义使用实例
 	printf("MAX = %d\n", MAX);//已移除
 	return 0;
 }
+
 int main()
 {
 	int array[ARRAY_SIZE];
