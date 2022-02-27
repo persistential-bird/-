@@ -173,7 +173,7 @@ int main()//#undef定义使用实例
 	return 0;
 }
 
-int main()//命令行定义
+int main()//命令行定义使用
 {
 	int array[ARRAY_SIZE];
         int i = 0;
