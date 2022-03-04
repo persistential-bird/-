@@ -246,7 +246,26 @@ int main()
 #endif
 	return 0;
 }
+#define DEBUG 6
+int main()
+{
+//#if defined(DEBUG)
+//  printf("hehe\n");
+//#endif
 
+//#ifdef DEBUG//和上述写法等同
+//  printf( "hehe\n");
+//#endif
+
+//#if !defined(DEBUG)
+//  printf("hehe\n");
+//#endif
+
+#ifndef DEBUG//和上述写法等同
+	printf("hehe\n");
+#endif
+	return 0;
+}
 条件编译
 在编译一个程序的时候我们如果要将一条语句(一组语句)编译或者放弃是很方便的。因为我们有条件编译指令。
 比如说:
