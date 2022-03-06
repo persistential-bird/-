@@ -272,18 +272,17 @@ int main()
 在编译一个程序的时候我们如果要将一条语句(一组语句)编译或者放弃是很方便的。因为我们有条件编译指令。
 比如说:
 调试性的代码，删除可惜，保留又碍事，所以我们可以选择性的编译。
-
-//struct S
-//{
-//	char c1;
-//	int a;
-//	char c2;
-//};
-//int main()//offsetoffset
-//{
-//	// struct S s;
-//	printf("%d\n", offsetof(struct S, c1));//0
-//	printf("%d\n", offsetof(struct S, a));//4
-//	printf("%d\n", offsetof(struct S, c2));//8
-//	return 0;
-//}
+struct S
+{
+	char c1;
+	int a;
+	char c2;
+};
+int main()//offset函数使用
+{
+	// struct S s;
+	printf("%d\n", offsetof(struct S, c1));//0
+	printf("%d\n", offsetof(struct S, a));//4
+	printf("%d\n", offsetof(struct S, c2));//8
+	return 0;
+}
