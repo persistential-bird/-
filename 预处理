@@ -279,7 +279,7 @@ struct S
 	int a;
 	char c2;
 };
-int main()//offset函数使用
+int main()//offset函数使用()
 {
 	// struct S s;
 	printf("%d\n", offsetof(struct S, c1));//0
