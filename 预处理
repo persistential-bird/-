@@ -295,7 +295,7 @@ struct S
 	char c2;
 };
 #define OFFSETOF(struct_name,member_name) (int)&(((struct_name*)0)->member_name)
-int main()    //使用宏模拟实现offsetof函数求结构体内各成员的偏移量
+int main()//使用宏模拟实现offsetof函数求结构体内各成员的偏移量
 {
 	//struct S s;
 	printf("%d\n",OFFSETOF(struct S, c1));
