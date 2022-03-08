@@ -223,7 +223,7 @@ int main()//单分支条件编译
 	return 0;
 }
 
-int main()
+int main()/
 {
 #if 1==2
 	printf("haha\n");
