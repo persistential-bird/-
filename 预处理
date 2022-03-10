@@ -236,7 +236,7 @@ int main()//多分支条件编译
 }
 
 #define DEBUG O
-int main()/
+int main()//
 {
 //#if defined(DEBUG)
 //  printf("hehein");
