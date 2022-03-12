@@ -248,7 +248,7 @@ int main()//if defined 与 ifdef(效果等同)
 }
 
 #define DEBUG 6
-int main()//if !defined 与 if
+int main()//if !defined 与 ifndef
 {
 //#if defined(DEBUG)
 //  printf("hehe\n");
