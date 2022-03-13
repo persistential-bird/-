@@ -237,6 +237,7 @@ int main()//多分支条件编译
 	return 0;
 }
 
+3.
 #define DEBUG O
 int main()//#if defined 与 #ifdef(效果等同)
 {
