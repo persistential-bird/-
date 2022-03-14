@@ -225,7 +225,7 @@ int main()//单分支条件编译
 }
 
 2.多分支条件编译
-int main()//
+int main()
 {
 #if 1==2
 	printf("haha\n");
