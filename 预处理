@@ -237,7 +237,7 @@ int main()//
 	return 0;
 }
 
-3.
+3.判断是否
 #define DEBUG O
 int main()//#if defined 与 #ifdef(效果等同)
 {
