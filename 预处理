@@ -249,7 +249,7 @@ int main()//#if defined 与 #ifdef(效果等同)
 #endif
 	return 0;
 }
-4.嵌套
+4.嵌套指令
 #define DEBUG 6
 int main()//#if !defined 与 #ifndef(效果等同)
 {
