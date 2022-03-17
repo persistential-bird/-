@@ -38,6 +38,7 @@ int main()//大神算法
 			printf("%d", i);break;
 		}
 }
+
 int main()//简单算法
 {
 	int a;
