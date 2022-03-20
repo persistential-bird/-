@@ -91,35 +91,46 @@ int jumpFloor(int number){
  *
  * C语言声明定义全局变量请加上static，防止重复定义
  */
-//void generate(int n, int left, int right, int high, char *cache, int **ret, int* returnSize)
-//{
-//	if ((left + right) == 2 * n) {
-//		memcpy(ret[*returnSize], cache, (2 * n) * sizeof(char));
-//		ret[*returnSize][2 * n] = '\0';
-//		(*returnSize) += 1;
-//		return;
-//	}
-//	/* 左括号数量如果不够， 可以继续添加左括号 */
-//	if (left < n) {
-//		cache[high] = '(';
-//		generate(n, left + 1, right, high + 1, cache, ret, returnSize);
-//	}
-//	/* 右括号要小于左括号数量 */
-//	if (right < left) {
-//		cache[high] = ')';
-//		generate(n, left, right + 1, high + 1, cache, ret, returnSize);
-//	}
-//}
-//char** generateParenthesis(int n, int* returnSize) {
-//	// write code here
-//	int **ret = malloc(1000 * sizeof(char *));
-//
-//	for (int i = 0; i < 1000; i++) {
-//		ret[i] = malloc((2 * n + 1) * sizeof(char));
-//	}
-//	*returnSize = 0;
-//	char cache[2 * n + 1];
-//	generate(n, 0, 0, 0, cache, ret, returnSize);
-//
-//	return ret;
-//}
+/**
+ * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+ *
+ *
+ * @param n int整型
+ * @return string字符串一维数组
+ * @return int* returnSize 返回数组行数
+ *
+ * C语言声明定义全局变量请加上static，防止重复定义
+ */
+ 
+void generate(int n, int left, int right, int high, char *cache, int **ret, int* returnSize)
+{
+	if ((left + right) == 2 * n) {
+		memcpy(ret[*returnSize], cache, (2 * n) * sizeof(char));
+		ret[*returnSize][2 * n] = '\0';
+		(*returnSize) += 1;
+		return;
+	}
+	/* 左括号数量如果不够， 可以继续添加左括号 */
+	if (left < n) {
+		cache[high] = '(';
+		generate(n, left + 1, right, high + 1, cache, ret, returnSize);
+	}
+	/* 右括号要小于左括号数量 */
+	if (right < left) {
+		cache[high] = ')';
+		generate(n, left, right + 1, high + 1, cache, ret, returnSize);
+	}
+}
+char** generateParenthesis(int n, int* returnSize) {
+	 write code here
+	int **ret = malloc(1000 * sizeof(char *));
+
+	for (int i = 0; i < 1000; i++) {
+		ret[i] = malloc((2 * n + 1) * sizeof(char));
+	}
+	*returnSize = 0;
+	char cache[2 * n + 1];
+	generate(n, 0, 0, 0, cache, ret, returnSize);
+
+	return ret;
+}
