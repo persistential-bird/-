@@ -101,7 +101,6 @@ int jumpFloor(int number){
  *
  * C语言声明定义全局变量请加上static，防止重复定义
  */
- 
 void generate(int n, int left, int right, int high, char *cache, int **ret, int* returnSize)
 {
 	if ((left + right) == 2 * n) {
@@ -134,4 +133,3 @@ char** generateParenthesis(int n, int* returnSize) {
 
 	return ret;
 }
-
