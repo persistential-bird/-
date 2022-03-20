@@ -134,3 +134,4 @@ char** generateParenthesis(int n, int* returnSize) {
 
 	return ret;
 }
+
