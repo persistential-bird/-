@@ -164,3 +164,56 @@ char* solve(char* s, char* t) {
  *
  * C语言声明定义全局变量请加上static，防止重复定义
  */
+//char* solve(char* s, char* t) //大神算法
+//{
+//	// write code here
+//	int sLen = strlen(s);
+//	int tLen = strlen(t);
+//	int resultLen;
+//
+//	if (sLen == 0)
+//		return t;
+//	if (tLen == 0)
+//		return s;
+//	//2个数字相加，和的位数最多为较长数字位数+1，因为是字符串，预留一个'\0'的位置，所有+2
+//	if (sLen > tLen)
+//		resultLen = sLen + 2;
+//	else
+//		resultLen = tLen + 2;
+//
+//	//char *result = (char *)malloc(sizeof(char)*resultLen);
+//	char *result = (char *)calloc(resultLen, sizeof(char));
+//	int sPos = sLen - 1;//求和从最后一位开始
+//	int tPos = tLen - 1;
+//	int resPos = 0;//记录和的字符串当前位置
+//	int carry = 0;//进位
+//	int sum = 0;//求和
+//	int i, j;//翻转字符串
+//
+//	while (sPos >= 0 || tPos >= 0 || carry > 0)
+//	{
+//		//从后往前，取每位的数字,若较长数字位有效，但较短数字位无效，则较短数字位返回0
+//		int n1 = sPos >= 0 ? s[sPos--] - '0' : 0;
+//		int n2 = tPos >= 0 ? t[tPos--] - '0' : 0;
+//		sum = n1 + n2 + carry;
+//		if (sum >= 10)
+//		{
+//			carry = 1;
+//			result[resPos++] = sum % 10 + '0';
+//		}
+//		else
+//		{
+//			carry = 0;
+//			result[resPos++] = sum + '0';
+//		}
+//	}
+//
+//	//s=1,t=99时，result=001，需原地翻转字符串为100
+//	for (i = 0, j = resPos - 1; i < j; i++, j--)
+//	{
+//		char tmp = result[i];
+//		result[i] = result[j];
+//		result[j] = tmp;
+//	}
+//	return result;
+//}
