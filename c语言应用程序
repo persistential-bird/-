@@ -164,6 +164,7 @@ char* solve(char* s, char* t) {
  *
  * C语言声明定义全局变量请加上static，防止重复定义
  */
+ 
 //char* solve(char* s, char* t) //大神算法
 //{
 //	// write code here
