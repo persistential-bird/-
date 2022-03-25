@@ -255,22 +255,23 @@ int main()
 小招喵想去的位置x
 输出描述：
 小招喵最少需要的步数
-//int main()
-//{
-//	int path, n;
-//	scanf("%d", &n);
-//	if (n < 0)
-//		n = -n;
-//	for (path = 0;n;path++)
-//	{
-//		if (n % 2 == 0)
-//			n /= 2;
-//		else if (n > 3 && ((n + 1) / 2) % 2 == 0)
-//			n++;
-//		else
-//			n--;
-//	}
-//	printf("%d", path);
-//
-//	return 0;
-//}
+
+int main()
+{
+	int path, n;
+	scanf("%d", &n);
+	if (n < 0)
+		n = -n;
+	for (path = 0;n;path++)
+	{
+		if (n % 2 == 0)
+			n /= 2;
+		else if (n > 3 && ((n + 1) / 2) % 2 == 0)
+			n++;
+		else
+			n--;
+	}
+	printf("%d", path);
+
+	return 0;
+}
