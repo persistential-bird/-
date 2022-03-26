@@ -286,6 +286,7 @@ int main()
 第四行：m个w数组元素
 输出描述：
 上台表演学生人数
-int compar(const void* a, const void* b) {
+int compar(const void* a, const void* b) 
+{
 	return *(int*)a - *(int*)b;
 }
