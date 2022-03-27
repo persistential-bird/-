@@ -315,4 +315,3 @@ int main(const int argc, const char** const argv) {
 
 	return fprintf(stdout, "%d", ans), 0;
 }
-
