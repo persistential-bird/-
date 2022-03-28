@@ -329,7 +329,7 @@ int main(const int argc, const char** const argv) {
 输入一个正整数，表示小电视君需要的N个扭蛋。
 输出描述：
 输出一个字符串，每个字符表示扭蛋机，字符只能包含"2"和"3"。
-//#include <stdio.h>
+
 //int print(int n)
 //{
 //	if (n == 1)
