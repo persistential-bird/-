@@ -329,33 +329,34 @@ int main(const int argc, const char** const argv) {
 输入一个正整数，表示小电视君需要的N个扭蛋。
 输出描述：
 输出一个字符串，每个字符表示扭蛋机，字符只能包含"2"和"3"。
-//int print(int n)
-//{
-//	if (n == 1)
-//	{
-//		printf("2");
-//		return 1;
-//	}
-//	else if (n == 2)
-//	{
-//		printf("3");
-//		return 1;
-//	}
-//	else if (n % 2)
-//	{
-//		print(n / 2);
-//		printf("2");
-//	}
-//	else
-//	{
-//		print(n / 2 - 1);
-//		printf("3");
-//	}
-//	return 1;
-//}
-//int main()//斐波那契数列问题  逆推法 递归
-//{
-//	int n;
-//	scanf("%d", &n);
-//	print(n);
-//}
+#include <stdio.h>
+int print(int n)
+{
+	if (n == 1)
+	{
+		printf("2");
+		return 1;
+	}
+	else if (n == 2)
+	{
+		printf("3");
+		return 1;
+	}
+	else if (n % 2)
+	{
+		print(n / 2);
+		printf("2");
+	}
+	else
+	{
+		print(n / 2 - 1);
+		printf("3");
+	}
+	return 1;
+}
+int main()//斐波那契数列问题  逆推法 递归
+{
+	int n;
+	scanf("%d", &n);
+	print(n);
+}
