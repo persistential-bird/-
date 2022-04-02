@@ -121,9 +121,9 @@ void generate(int n, int left, int right, int high, char *cache, int **ret, int*
 }
 char** generateParenthesis(int n, int* returnSize) {
 	 write code here
-	int **ret = malloc(1000 * sizeof(char *));
+	int **ret = malloc(10000 * sizeof(char *));
 
-	for (int i = 0; i < 1000; i++) {
+	for (int i = 0; i < 10000; i++) {
 		ret[i] = malloc((2 * n + 1) * sizeof(char));
 	}
 	*returnSize = 0;
@@ -132,6 +132,7 @@ char** generateParenthesis(int n, int* returnSize) {
 
 	return ret;
 }
+
 
 BM86 大数加法
 知识点
