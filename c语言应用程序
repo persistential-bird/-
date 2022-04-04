@@ -335,6 +335,7 @@ int main(const int argc, const char** const argv) {
 
 	return fprintf(stdout, "%d", ans), 0;
 }
+
 扭蛋机   递归
 描述
 22娘和33娘接到了小电视君的扭蛋任务：
