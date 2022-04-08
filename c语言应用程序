@@ -394,18 +394,18 @@ MGJ1 搬圆桌
 一行五个整数r, x, y, x1, y1(1≤r≤100000, -100000≤x, y, x1, y1≤100000)
 输出描述：
 输出一个整数，表示答案
-//int main()
-//{
-//	int r, x, y, x1, y1;
-//	while (scanf("%d%d%d%d%d", &r, &x, &y, &x1, &y1) != EOF)
-//	{
-//		double dis;
-//		r = r * 2;
-//		dis = sqrt(pow((y1 - y), 2) + pow((x1 - x), 2));
-//		int step = dis / r;
-//		if (r*step < dis)
-//			step++;
-//		printf("%d\n", step);
-//	}
-//	return 0;
-//}
+int main()
+{
+	int r, x, y, x1, y1;
+	while (scanf("%d%d%d%d%d", &r, &x, &y, &x1, &y1) != EOF)
+	{
+		double dis;
+		r = r * 2;
+		dis = sqrt(pow((y1 - y), 2) + pow((x1 - x), 2));
+		int step = dis / r;
+		if (r*step < dis)
+			step++;
+		printf("%d\n", step);
+	}
+	return 0;
+}
