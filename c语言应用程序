@@ -423,27 +423,28 @@ B.如果访问过当前房间 i 奇数次，那么移动到房间pi；
 输出描述：
 输出一行数字，表示最终移动的次数，最终结果需要对1000000007(10e9 + 7) 取模。
 
-//int step(int*a, int n)
-//{
-//	int dp[n + 1];
-//	memset(dp, 0, sizeof(dp));
-//	int mod = 10e9 + 7;
-//	for (int i = 1;i <= n;i++)
-//	{
-//		dp[i] = (2 * dp[i - 1] - dp[a[i - 1] - 1] + 2) % mod;
-//	}
-//	return dp[n];
-//}
-//int main()
-//{
-//	int n;
-//	scanf("%d", &n);
-//	int i, a[n];
-//	for (i = 0;i < n;i++)
-//	{
-//		scanf("%d", &a[i]);
-//	}
-//	int s = step(a, n);
-//	printf("%d", s);
-//	return 0;
-//}
+#include <stdio.h>
+int step(int*a, int n)
+{
+	int dp[n + 1];
+	memset(dp, 0, sizeof(dp));
+	int mod = 10e9 + 7;
+	for (int i = 1;i <= n;i++)
+	{
+		dp[i] = (2 * dp[i - 1] - dp[a[i - 1] - 1] + 2) % mod;
+	}
+	return dp[n];
+}
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	int i, a[n];
+	for (i = 0;i < n;i++)
+	{
+		scanf("%d", &a[i]);
+	}
+	int s = step(a, n);
+	printf("%d", s);
+	return 0;
+}
