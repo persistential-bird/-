@@ -463,7 +463,6 @@ int main()
 输出描述：
 对于每个输入文件，输出T行。
 每行输出"y"表示这些半圆有相交或者"n"。
-
 //int get_fun(int a, int b, int x, int y)
 //{
 //	if (a > b) {
