@@ -576,3 +576,43 @@ QY1 循环数比较
 //输入包括一行, 一行中有4个正整数x1, k1, x2, k2(1 ≤ x1, x2 ≤ 10 ^ 9, 1 ≤ k1, k2 ≤ 50), 以空格分割
 //输出描述：
 //如果v1小于v2输出"Less", v1等于v2输出"Equal", v1大于v2输出"Greater"
+//char repeat(char a[], int b)
+//{
+//	int i;
+//	char s1[500];
+//	strcpy(s1, a);
+//	for (i = 0;i < b - 1;i++)
+//		strcat(s1, a);
+//	return s1[500];
+//}
+//int main()
+//{
+//	int i, k1, k2;
+//	char x1[12], x2[12], num1[500], num2[500];
+//	scanf("%s %d %s %d\n", &x1, &k1, &x2, &k2);
+//	num1[500] = repeat(x1, k1);
+//	num2[500] = repeat(x2, k2);
+//	if (strlen(num1) < strlen(num2))
+//		printf("Less");
+//	else if (strlen(num1) == strlen(num2))
+//	{
+//		for (i = 0;i < strlen(num1);i++)
+//		{
+//			if (num1[i] < num2[i])
+//			{
+//				printf("Less");
+//				break;
+//			}
+//			else if (num1[i] > num2[i])
+//			{
+//				printf("Greater");
+//				break;
+//			}
+//		}
+//		if (i >= strlen(num1))
+//			printf("Equal");
+//	}
+//	else
+//		printf("Greater");
+//	return 0;
+//}
