@@ -616,3 +616,53 @@ QY1 循环数比较
 //		printf("Greater");
 //	return 0;
 //}
+//#include<stdio.h>
+//#define N 300
+//int repeat(int x, int k, int *v)
+//{
+//	int i, j = 0, m, t;
+//	while (x)
+//	{
+//		v[j++] = x % 10;
+//		x /= 10;
+//	}
+//	for (i = 0;i < j / 2;i++)
+//	{
+//		t = v[i];
+//		v[i] = v[j - 1 - i];
+//		v[j - 1 - i] = t;
+//	}
+//	for (i = 1;i < k;i++)
+//		for (m = 0;m < j;m++)
+//			v[m + i * j] = v[m];//暂时不知道为什么不能用v[j++]=v[m];
+//	return j * k;
+//}
+//int main()
+//{
+//	int i, a, b, k1, k2, x1, x2, v1[N], v2[N];
+//	scanf("%d %d %d %d", &x1, &k1, &x2, &k2);
+//	a = repeat(x1, k1, v1);
+//	b = repeat(x2, k2, v2);
+//	if (a < b)
+//		printf("Less");
+//	else if (a == b)
+//	{
+//		for (i = 0;i < a;i++)
+//		{
+//			if (v1[i] < v2[i])
+//			{
+//				printf("Less");
+//				break;
+//			}
+//			else if (v1[i] > v2[i])
+//			{
+//				printf("Greater");
+//				break;
+//			}
+//		}
+//		if (i >= a)
+//			printf("Equal");
+//	}
+//	else
+//		printf("Greater");
+//}
