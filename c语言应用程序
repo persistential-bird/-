@@ -585,7 +585,7 @@ QY1 循环数比较
 //		strcat(s1, a);
 //	return s1[500];
 //}
-//int main()
+//int main()//
 //{
 //	int i, k1, k2;
 //	char x1[12], x2[12], num1[500], num2[500];
