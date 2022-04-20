@@ -616,6 +616,7 @@ QY1 循环数比较
 //		printf("Greater");
 //	return 0;
 //}
+
 //#include<stdio.h>
 //#define N 300
 //int repeat(int x, int k, int *v)
