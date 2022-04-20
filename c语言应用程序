@@ -667,3 +667,35 @@ QY1 循环数比较
 //	else
 //		printf("Greater");
 //}
+//int judge(char a[], int v1, char b[], int v2)
+//{
+//	int i;
+//	char s1[500], s2[500];
+//	strcpy(s1, a);
+//	strcpy(s2, b);
+//	for (i = 0;i < v1 - 1;i++)    strcat(s1, a);
+//	for (i = 0;i < v2 - 1;i++)    strcat(s2, b);
+//	if (strlen(s1) > strlen(s2))    return 1;
+//	if (strlen(s1) < strlen(s2))    return 2;
+//	for (i = 0;i < v1;i++)
+//	{
+//		if (s1[i] > s2[i])    return 1;
+//		if (s1[i] < s2[i])    return 2;
+//	}
+//	return 0;
+//
+//}
+//int main()
+//{
+//	int v1, v2, r;
+//	char x1[12], x2[12];
+//	scanf("%s%d%s%d", &x1, &v1, &x2, &v2);
+//	r = judge(x1, v1, x2, v2);
+//	switch (r)
+//	{
+//	case 0:printf("Equal"); break;
+//	case 1:printf("Greater");break;
+//	case 2:printf("Less");break;
+//	}
+//	return 0;
+//}
