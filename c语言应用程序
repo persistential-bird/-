@@ -667,6 +667,7 @@ QY1 循环数比较
 //	else
 //		printf("Greater");
 //}
+
 //int judge(char a[], int v1, char b[], int v2)
 //{
 //	int i;
