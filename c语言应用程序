@@ -638,7 +638,7 @@ int main()//字符串元素比较
 //			v[m + i * j] = v[m];//暂时不知道为什么不能用v[j++]=v[m];
 //	return j * k;
 //}
-//int main()////数组剥离重组比较
+//int main()//数组剥离重组比较
 //{
 //	int i, a, b, k1, k2, x1, x2, v1[N], v2[N];
 //	scanf("%d %d %d %d", &x1, &k1, &x2, &k2);
