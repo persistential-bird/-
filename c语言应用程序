@@ -616,6 +616,7 @@ int main()//字符串元素比较
 		printf("Greater");
 	return 0;
 }
+
 //#include<stdio.h>
 //#define N 300
 //int repeat(int x, int k, int *v)
