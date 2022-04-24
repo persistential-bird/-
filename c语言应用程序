@@ -686,7 +686,7 @@ int judge(char a[], int v1, char b[], int v2)
 	return 0;
 
 }
-int main()///字符复制比较 选择结构输出
+int main()//字符复制比较 选择结构输出
 {
 	int v1, v2, r;
 	char x1[12], x2[12];
