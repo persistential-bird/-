@@ -710,7 +710,6 @@ PDD2 大整数相乘
 空格分隔的两个字符串，代表输入的两个大整数
 输出描述：
 输入的乘积，用字符串表示
-
 //void big_data_multi(char *pstr1, char *pstr2)
 //{
 //	int i, j;
