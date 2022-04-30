@@ -711,8 +711,7 @@ PDD2 大整数相乘
 输出描述：
 输入的乘积，用字符串表示
 
-#include <stdlib.h>
-#include <string.h>
+
 void big_data_multi(char *pstr1, char *pstr2)
 {
 	int i, j;
