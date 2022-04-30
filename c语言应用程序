@@ -711,48 +711,51 @@ PDD2 大整数相乘
 输出描述：
 输入的乘积，用字符串表示
 
-//void big_data_multi(char *pstr1, char *pstr2)
-//{
-//	int i, j;
-//	int length_str1 = strlen(pstr1);
-//	int length_str2 = strlen(pstr2);
-//	int *pstr3 = (int*)malloc(sizeof(int)*(length_str1 + length_str2));
-//	char *pstr4 = (char*)malloc(sizeof(char)*(length_str1 + length_str2 + 1));
-//	memset(pstr3, 0, sizeof(int)*(length_str1 + length_str2));//一定要初始化，否则乱码
-//	for (i = 0; i < length_str2; i++)//循环累乘相加
-//	{
-//		for (j = 0; j < length_str1; j++)
-//		{
-//			pstr3[i + j + 1] += (pstr1[j] - '0') * (pstr2[i] - '0');
-//		}
-//	}
-//	for (i = length_str1 + length_str2 - 1; i >= 0; i--)
-//	{
-//		if (pstr3[i] >= 10)
-//		{
-//			pstr3[i - 1] += pstr3[i] / 10;
-//			pstr3[i] = pstr3[i] % 10;
-//		}
-//	}
-//	i = 0;
-//	while (pstr3[i] == 0)
-//	{
-//		i++;
-//	}
-//	j = 0;
-//	for (; j < length_str1 + length_str2 && i < length_str1 + length_str2; j++, i++)
-//	{
-//		pstr4[j] = pstr3[i] + '0';
-//	}
-//	pstr4[j] = '\0';
-//
-//	printf("%s", pstr4);
-//	free(pstr3);
-//	free(pstr4);
-//}
-//int main()
-//{
-//	char str1[100] = { 0 }, str2[100] = { 0 };
-//	scanf("%s%s", str1, str2);
-//	big_data_multi(str1, str2);
-//}
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+void big_data_multi(char *pstr1, char *pstr2)
+{
+	int i, j;
+	int length_str1 = strlen(pstr1);
+	int length_str2 = strlen(pstr2);
+	int *pstr3 = (int*)malloc(sizeof(int)*(length_str1 + length_str2));
+	char *pstr4 = (char*)malloc(sizeof(char)*(length_str1 + length_str2 + 1));
+	memset(pstr3, 0, sizeof(int)*(length_str1 + length_str2));//一定要初始化，否则乱码
+	for (i = 0; i < length_str2; i++)//循环累乘相加
+	{
+		for (j = 0; j < length_str1; j++)
+		{
+			pstr3[i + j + 1] += (pstr1[j] - '0') * (pstr2[i] - '0');
+		}
+	}
+	for (i = length_str1 + length_str2 - 1; i >= 0; i--)
+	{
+		if (pstr3[i] >= 10)
+		{
+			pstr3[i - 1] += pstr3[i] / 10;
+			pstr3[i] = pstr3[i] % 10;
+		}
+	}
+	i = 0;
+	while (pstr3[i] == 0)
+	{
+		i++;
+	}
+	j = 0;
+	for (; j < length_str1 + length_str2 && i < length_str1 + length_str2; j++, i++)
+	{
+		pstr4[j] = pstr3[i] + '0';
+	}
+	pstr4[j] = '\0';
+
+	printf("%s", pstr4);
+	free(pstr3);
+	free(pstr4);
+}
+int main()
+{
+	char str1[100] = { 0 }, str2[100] = { 0 };
+	scanf("%s%s", str1, str2);
+	big_data_multi(str1, str2);
+}
