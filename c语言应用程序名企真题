@@ -755,6 +755,7 @@ int main()
 	scanf("%s%s", str1, str2);
 	big_data_multi(str1, str2);
 }
+
 BL2 小A最多会新认识的多少人
 知识点
 图
