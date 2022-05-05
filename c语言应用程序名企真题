@@ -755,7 +755,6 @@ int main()
 	scanf("%s%s", str1, str2);
 	big_data_multi(str1, str2);
 }
-
 BL2 小A最多会新认识的多少人
 知识点
 图
@@ -769,3 +768,45 @@ BL2 小A最多会新认识的多少人
 第4到m + 3行为互相认识的对，以','分割的编号。
 输出描述：
 输出小A最多会新认识的多少人？
+//int find(int *f, int a)
+//{
+//	int son, tmp;
+//	son = a;
+//	while (a != f[a])
+//		a = f[a];
+//	while (son != a)
+//	{
+//		tmp = f[son];
+//		f[son] = a;
+//		son = tmp;
+//	}
+//	return a;
+//}
+//
+//int main(void)
+//{
+//	int N, my, M;
+//	scanf("%d", &N);
+//	scanf("%d", &my);
+//	scanf("%d", &M);
+//	int i, m, n, count, *f = (int*)malloc(sizeof(int)*N);
+//	for (i = 0; i < N; i++)
+//		f[i] = i;
+//	for (i = 0, count = -1; i < M; i++)
+//	{
+//		scanf("%d,%d", &m, &n);
+//		if (m == my || n == my)
+//			count--;
+//		m = find(f, m);
+//		n = find(f, n);
+//		if (m != n)
+//			f[m] = n;
+//	}
+//	int root = find(f, my);
+//	for (i = 0; i < N; i++)
+//		if (find(f, i) == root)
+//			count++;
+//	printf("%d", count);
+//
+//	return 0;
+//}
