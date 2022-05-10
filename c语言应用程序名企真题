@@ -823,33 +823,34 @@ SG2 矩阵元素相乘
 //第一行两个整数n和m。之后n行输入矩阵，均为非负整数。
 //输出描述：
 //一行输出答案。
-//#include <limits.h>
-//int main()
-//{
-//	int n, m;
-//	while (scanf("%d %d", &n, &m) != EOF)
-//	{
-//		int arr[n][m];
-//		int max = INT_MIN;
-//		for (int i = 0;i < n;i++)
-//			for (int j = 0;j < m;j++)
-//				scanf("%d", &arr[i][j]);
-//		for (int i = 0;i < n;i++)
-//		{
-//			for (int j = 0;j < m;j++)
-//			{
-//				int sum = 1;
-//				for (int k = 0;k < n;k++)
-//					if (k != i)
-//						sum = sum * arr[k][j];
-//				for (int k = 0;k < m;k++)
-//					if (k != j)
-//						sum *= arr[i][k];
-//				if (sum > max)
-//					max = sum;
-//			}
-//		}
-//		printf("%d", max);
-//	}
-//	return 0;
-//}
+#include <stdio.h>
+#include <limits.h>
+int main()
+{
+	int n, m;
+	while (scanf("%d %d", &n, &m) != EOF)
+	{
+		int arr[n][m];
+		int max = INT_MIN;
+		for (int i = 0;i < n;i++)
+			for (int j = 0;j < m;j++)
+				scanf("%d", &arr[i][j]);
+		for (int i = 0;i < n;i++)
+		{
+			for (int j = 0;j < m;j++)
+			{
+				int sum = 1;
+				for (int k = 0;k < n;k++)
+					if (k != i)
+						sum = sum * arr[k][j];
+				for (int k = 0;k < m;k++)
+					if (k != j)
+						sum *= arr[i][k];
+				if (sum > max)
+					max = sum;
+			}
+		}
+		printf("%d", max);
+	}
+	return 0;
+}
