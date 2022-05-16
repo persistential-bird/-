@@ -868,20 +868,21 @@ CMB3 不想出差的HR
 输出描述：
 若小招需要出差，则输出：1；
 若小招不需要出差，则输出：第一步选择的科室名称和选择人数，用英文逗号分隔
-//int main()
-//{
-//	unsigned int A, B, C, x;
-//	scanf("%d,%d,%d", &A, &B, &C);
-//	x = A ^ B^C;
-//	if (x == 0)
-//		printf("1\n");
-//	else
-//	{
-//		if ((A^B) < C)
-//			printf("C,%u\n", C - (A^B));
-//		else if ((A^C) < B)
-//			printf("B,%u\n", B - (A^C));
-//		else if ((B^C) < A)
-//			printf("A,%u\n", A - (B^C));
-//	}
-//}
+#include <stdio.h>
+int main()
+{
+	unsigned int A, B, C, x;
+	scanf("%d,%d,%d", &A, &B, &C);
+	x = A ^ B^C;
+	if (x == 0)
+		printf("1\n");
+	else
+	{
+		if ((A^B) < C)
+			printf("C,%u\n", C - (A^B));
+		else if ((A^C) < B)
+			printf("B,%u\n", B - (A^C));
+		else if ((B^C) < A)
+			printf("A,%u\n", A - (B^C));
+	}
+}
