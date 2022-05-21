@@ -923,5 +923,5 @@ int main()
 //		t = c < t ? c : t;
 //		printf("%d\n", t);
 //	}
-//	return 0;
+	return 0;
 }
