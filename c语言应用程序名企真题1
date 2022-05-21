@@ -900,7 +900,7 @@ MGJ2 最大间隔
 输入：5
       1 2 3 7 8
 输出：4
-#include <stdio.h>
+
 int main()
 {
 	int i, n, arr[101], b[100];
