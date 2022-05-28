@@ -944,7 +944,7 @@ WY1 奖学金
 输出描述：
 每个用例对应一行输出答案。
 #include <stdio.h>
-//void my_sort(int *A, int *B, int left, int right)
+void my_sort(int *A, int *B, int left, int right)
 //{
 //	if (left < right) {
 //		int record_A = A[left], record_B = B[left], i = left, j = right;
