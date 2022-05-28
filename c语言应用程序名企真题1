@@ -943,7 +943,7 @@ WY1 奖学金
 注意：本题含有多组样例输入。
 输出描述：
 每个用例对应一行输出答案。
-//#include <stdio.h>
+#include <stdio.h>
 //void my_sort(int *A, int *B, int left, int right)
 //{
 //	if (left < right) {
