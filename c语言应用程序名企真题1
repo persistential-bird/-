@@ -943,3 +943,51 @@ WY1 奖学金
 注意：本题含有多组样例输入。
 输出描述：
 每个用例对应一行输出答案。
+//#include <stdio.h>
+//void my_sort(int *A, int *B, int left, int right)
+//{
+//	if (left < right) {
+//		int record_A = A[left], record_B = B[left], i = left, j = right;
+//		while (i < j)
+//		{
+//			while (i < j && B[j] >= record_B)
+//				--j;
+//			B[i] = B[j], A[i] = A[j];
+//			while (i < j && B[i] <= record_B)
+//				++i;
+//			B[j] = B[i], A[j] = A[i];
+//		}
+//		B[i] = record_B, A[i] = record_A;
+//		my_sort(A, B, left, i - 1);
+//		my_sort(A, B, i + 1, right);
+//	}
+//}
+//int main()
+//{
+//	int n, r, avg;
+//	while (scanf("%d %d %d", &n, &r, &avg) != EOF)
+//	{
+//		long long cnt = 0, rest = (long long)n*avg;   int A[n], B[n];
+//		for (int i = 0, A_val; i < n; ++i)
+//		{
+//			scanf("%d %d", &A_val, B + i);
+//			A[i] = r - A_val;
+//			rest -= A_val;
+//		}
+//		if (rest > 0)
+//		{
+//			my_sort(A, B, 0, n - 1);
+//			int i = 0;
+//			while (i<n && rest>A[i])
+//			{
+//				cnt += (long long)A[i] * B[i];
+//				rest -= A[i];
+//				i++;
+//			}
+//			printf("%lld\n", i < n ? cnt + rest * B[i] : cnt);
+//		}
+//		else
+//			printf("0\n");
+//	}
+//	return 0;
+//}
