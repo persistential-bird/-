@@ -951,7 +951,7 @@ void my_sort(int *A, int *B, int left, int right)
 		while (i < j)
 		{
 			while (i < j && B[j] >= record_B)
-//				--j;
+				--j;
 //			B[i] = B[j], A[i] = A[j];
 //			while (i < j && B[i] <= record_B)
 //				++i;
