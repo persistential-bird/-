@@ -962,7 +962,7 @@ void my_sort(int *A, int *B, int left, int right)
 		my_sort(A, B, i + 1, right);
 	}
 }
-//int main()
+int main()
 //{
 //	int n, r, avg;
 //	while (scanf("%d %d %d", &n, &r, &avg) != EOF)
