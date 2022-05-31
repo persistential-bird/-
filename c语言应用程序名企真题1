@@ -961,7 +961,7 @@ void my_sort(int *A, int *B, int left, int right)
 		my_sort(A, B, left, i - 1);
 		my_sort(A, B, i + 1, right);
 	}
-//}
+}
 //int main()
 //{
 //	int n, r, avg;
