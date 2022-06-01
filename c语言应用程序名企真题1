@@ -965,7 +965,7 @@ void my_sort(int *A, int *B, int left, int right)
 int main()
 {
 	int n, r, avg;
-//	while (scanf("%d %d %d", &n, &r, &avg) != EOF)
+	while (scanf("%d %d %d", &n, &r, &avg) != EOF)
 //	{
 //		long long cnt = 0, rest = (long long)n*avg;   int A[n], B[n];
 //		for (int i = 0, A_val; i < n; ++i)
