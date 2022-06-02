@@ -976,7 +976,7 @@ int main()
 		}
 		if (rest > 0)
 		{
-//			my_sort(A, B, 0, n - 1);
+			my_sort(A, B, 0, n - 1);
 //			int i = 0;
 //			while (i<n && rest>A[i])
 //			{
