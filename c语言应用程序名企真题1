@@ -974,7 +974,7 @@ int main()
 			A[i] = r - A_val;
 			rest -= A_val;
 		}
-//		if (rest > 0)
+		if (rest > 0)
 //		{
 //			my_sort(A, B, 0, n - 1);
 //			int i = 0;
