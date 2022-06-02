@@ -973,7 +973,7 @@ int main()
 			scanf("%d %d", &A_val, B + i);
 			A[i] = r - A_val;
 			rest -= A_val;
-//		}
+		}
 //		if (rest > 0)
 //		{
 //			my_sort(A, B, 0, n - 1);
