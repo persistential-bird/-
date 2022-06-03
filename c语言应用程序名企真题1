@@ -978,7 +978,7 @@ int main()
 		{
 			my_sort(A, B, 0, n - 1);
 			int i = 0;
-//			while (i<n && rest>A[i])
+			while (i<n && rest>A[i])
 //			{
 //				cnt += (long long)A[i] * B[i];
 //				rest -= A[i];
