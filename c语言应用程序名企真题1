@@ -981,7 +981,7 @@ int main()
 			while (i<n && rest>A[i])
 			{
 				cnt += (long long)A[i] * B[i];
-//				rest -= A[i];
+				rest -= A[i];
 //				i++;
 //			}
 //			printf("%lld\n", i < n ? cnt + rest * B[i] : cnt);
