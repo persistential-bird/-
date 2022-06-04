@@ -980,7 +980,7 @@ int main()
 			int i = 0;
 			while (i<n && rest>A[i])
 			{
-//				cnt += (long long)A[i] * B[i];
+				cnt += (long long)A[i] * B[i];
 //				rest -= A[i];
 //				i++;
 //			}
