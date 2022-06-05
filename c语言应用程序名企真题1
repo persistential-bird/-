@@ -983,7 +983,7 @@ int main()
 				cnt += (long long)A[i] * B[i];
 				rest -= A[i];
 				i++;
-//			}
+			}
 //			printf("%lld\n", i < n ? cnt + rest * B[i] : cnt);
 //		}
 //		else
