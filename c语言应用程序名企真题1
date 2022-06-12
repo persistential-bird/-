@@ -1034,3 +1034,30 @@ DD1 连续最大和
 //	printf("%d", max);
 //	return 0;
 //}
+//#include <stdio.h>
+//#include <limits.h>
+
+//int main()//常用解
+//{
+//	int N;
+//	while (scanf("%d", &N) != EOF)
+//	{
+//		int arr[N];
+//		int index = 0;
+//		while (index < N)
+//		{
+//			scanf("%d", &arr[index++]);
+//		}
+//		int sum = 0, max = INT_MIN;
+//		for (index = 0;index < N;index++)
+//		{
+//			sum += arr[index];
+//			if (sum > max)
+//				max = sum;
+//			if (sum < 0)
+//				sum = 0;
+//		}
+//		printf("%d\n", max);
+//	}
+//	return 0;
+//}
