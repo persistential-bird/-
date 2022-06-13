@@ -1035,7 +1035,7 @@ DD1 连续最大和
 //	return 0;
 //}
 
-/#include <stdio.h>
+#include <stdio.h>
 //#include <limits.h>
 //int main()//常用解
 //{
