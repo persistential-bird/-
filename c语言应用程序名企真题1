@@ -1037,7 +1037,7 @@ DD1 连续最大和
 
 #include <stdio.h>
 #include <limits.h>
-//int main()//常用解
+int main()//常用解
 //{
 //	int N;
 //	while (scanf("%d", &N) != EOF)
