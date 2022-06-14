@@ -1039,7 +1039,7 @@ DD1 连续最大和
 #include <limits.h>
 int main()//常用解
 {
-//	int N;
+	int N;
 //	while (scanf("%d", &N) != EOF)
 //	{
 //		int arr[N];
