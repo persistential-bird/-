@@ -1043,7 +1043,7 @@ int main()//常用解
 	while (scanf("%d", &N) != EOF)
 	{
 		int arr[N];
-/		int index = 0;
+		int index = 0;
 //		while (index < N)
 //		{
 //			scanf("%d", &arr[index++]);
