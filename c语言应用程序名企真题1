@@ -1044,7 +1044,7 @@ int main()//常用解
 	{
 		int arr[N];
 		int index = 0;
-//		while (index < N)
+/		while (index < N)
 //		{
 //			scanf("%d", &arr[index++]);
 //		}
