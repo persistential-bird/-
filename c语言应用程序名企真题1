@@ -1047,7 +1047,7 @@ int main()//常用解
 		while (index < N)
 		{
 			scanf("%d", &arr[index++]);
-//		}
+		}
 //		int sum = 0, max = INT_MIN;
 //		for (index = 0;index < N;index++)
 //		{
