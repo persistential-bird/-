@@ -1053,7 +1053,7 @@ int main()//常用解
 		{
 			sum += arr[index];
 			if (sum > max)
-//				max = sum;
+				max = sum;
 //			if (sum < 0)
 //				sum = 0;
 //		}
