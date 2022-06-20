@@ -1058,6 +1058,6 @@ int main()//常用解
 				sum = 0;
 		}
 		printf("%d\n", max);
-/	}
+	}
 //	return 0;
 //}
