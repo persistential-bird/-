@@ -1003,7 +1003,7 @@ DD1 连续最大和
 所有连续子数组中和最大的值。
 int main()//需用动态存储 while循环或malloc存储数组arr
 {
-/	int i, n;
+	int i, n;
 //	scanf("%d", &n);
 //	if ((n < 1) || (n > 100000))
 //	{
