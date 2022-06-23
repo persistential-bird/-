@@ -1033,7 +1033,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 //	}
 //	printf("%d", max);
 //	return 0;
-//}
+/}
 
 #include <stdio.h>
 #include <limits.h>
