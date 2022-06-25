@@ -1007,7 +1007,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 	scanf("%d", &n);
 	if ((n < 1) || (n > 100000))
 	{
-//		printf("please scan number between 1-100000\n");
+/		printf("please scan number between 1-100000\n");
 //		return 0;
 //	}
 //	int *arr = malloc(sizeof(int)*n);
