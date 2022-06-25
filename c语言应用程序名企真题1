@@ -1009,7 +1009,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 	{
 		printf("please scan number between 1-100000\n");
 		return 0;
-//	}
+/	}
 //	int *arr = malloc(sizeof(int)*n);
 //	if (arr == NULL)
 //	{
