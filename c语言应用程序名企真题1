@@ -1013,7 +1013,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 	int *arr = malloc(sizeof(int)*n);
 	if (arr == NULL)
 	{
-/		printf("malloc memary failed\n");
+		printf("malloc memary failed\n");
 //		return 0;
 //	}
 //	for (i = 0;i < n;i++)
