@@ -1016,7 +1016,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 		printf("malloc memary failed\n");
 		return 0;
 	}
-/	for (i = 0;i < n;i++)
+	for (i = 0;i < n;i++)
 //	{
 //		scanf("%d", &arr[i]);
 //	}
