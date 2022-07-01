@@ -1026,7 +1026,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 	{
 		if (sum < 0)
 			sum = arr[j];
-//		else
+/		else
 //			sum += arr[j];
 //		if (sum > max)
 //			max = sum;
