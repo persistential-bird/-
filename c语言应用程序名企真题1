@@ -1029,7 +1029,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 		else
 			sum += arr[j];
 		if (sum > max)
-//			max = sum;
+/			max = sum;
 //	}
 //	printf("%d", max);
 	return 0;
