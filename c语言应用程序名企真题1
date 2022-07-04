@@ -1061,3 +1061,26 @@ int main()//常用解
 	}
 	return 0;
 }
+//描述
+//有一个长为 n 的数组 A ，求满足 0 ≤ a ≤ b < n 的 A[b] - A[a] 的最大值。
+//给定数组 A 及它的大小 n ，请返回最大差值。
+//数据范围：2 < n≤2∗10^5，数组中的值满足0≤|val|≤5∗10^8
+//* @param A int整型一维数组
+//* @param ALen int A数组长度
+//* @param n int整型
+//* @return int整型
+//*
+//* C语言声明定义全局变量请加上static，防止重复定义
+//* /
+//int getDis(int* A, int ALen, int n) {
+//	// write code here
+//	int max = 0, min = A[0];
+//	for (int i = 0;i < n;i++)
+//	{
+//		if (min > A[i])
+//			min = A[i];
+//		if (max < A[i] - min)
+//			max = A[i] - min;
+//	}
+//	return max;
+//}
