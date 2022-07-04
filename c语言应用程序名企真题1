@@ -1031,7 +1031,7 @@ int main()//需用动态存储 while循环或malloc存储数组arr
 		if (sum > max)
 			max = sum;
 	}
-//	printf("%d", max);
+/	printf("%d", max);
 	return 0;
 }
 
