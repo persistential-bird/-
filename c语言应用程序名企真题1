@@ -1093,6 +1093,6 @@ int getDis(int* A, int ALen, int n) {
 			min = A[i];
 		if (max < A[i] - min)
 			max = A[i] - min;
-/	}
+	}
 //	return max;
 //}
