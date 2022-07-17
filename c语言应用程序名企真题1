@@ -1105,3 +1105,35 @@ int getDis(int* A, int ALen, int n) {
 //表示加急 ，'n' 表示不加急。
 //输出描述：
 //输出牛牛总共要支付的快递费用
+//#include <stdio.h>
+//int main()
+//{
+//	int m = 0;
+//	float a;
+//	char b;
+//	scanf("%f %c", &a, &b);
+//	if (a <= 1)
+//	{
+//		if (b == 'y')
+//			m = 5;
+//	}
+//	else
+//	{
+//		if (b == 'y')
+//		{
+//			m = a - 1;
+//			if (a - m > 1)
+//				m += 1;
+//			m += 5;
+//		}
+//		else
+//		{
+//			m = a - 1;
+//			if (a - m > 1)
+//				m += 1;
+//			m = m;
+//		}
+//	}
+//	printf("%d", m + 20);
+//	return 0;
+//}
