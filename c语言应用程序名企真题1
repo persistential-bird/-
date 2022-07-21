@@ -1107,7 +1107,7 @@ int getDis(int* A, int ALen, int n) {
 输出牛牛总共要支付的快递费用
 #include <stdio.h>
 int main()
-//{
+/{
 //	int m = 0;
 //	float a;
 //	char b;
