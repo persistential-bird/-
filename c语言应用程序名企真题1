@@ -1108,7 +1108,7 @@ int getDis(int* A, int ALen, int n) {
 #include <stdio.h>
 int main()
 {
-//	int m = 0;
+/	int m = 0;
 //	float a;
 //	char b;
 //	scanf("%f %c", &a, &b);
