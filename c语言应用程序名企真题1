@@ -1111,7 +1111,7 @@ int main()
 	int m = 0;
 	float a;
 	char b;
-/	scanf("%f %c", &a, &b);
+	scanf("%f %c", &a, &b);
 //	if (a <= 1)
 //	{
 //		if (b == 'y')
