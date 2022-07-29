@@ -1126,7 +1126,7 @@ int main()
 				m += 1;
 			m += 5;
 		}
-//		else
+/		else
 //		{
 //			m = a - 1;
 //			if (a - m > 1)
