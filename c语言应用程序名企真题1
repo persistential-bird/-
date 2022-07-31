@@ -1129,7 +1129,7 @@ int main()
 		else
 		{
 			m = a - 1;
-/			if (a - m > 1)
+			if (a - m > 1)
 //				m += 1;
 //			m = m;
 //		}
