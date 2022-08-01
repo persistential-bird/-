@@ -1134,6 +1134,6 @@ int main()
 			m = m;
 		}
 	}
-//	printf("%d", m + 20);
+/	printf("%d", m + 20);
 //	return 0;
 //}
