@@ -1148,7 +1148,7 @@ int main()
 int main()
 {
 	int n = 0;
-/	int arr[] = { 2,3,7 };
+	int arr[] = { 2,3,7 };
 //	int i = 0;
 //	int count = 0;
 //	scanf("%d", &n);
