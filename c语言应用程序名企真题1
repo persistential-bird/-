@@ -1147,7 +1147,7 @@ int main()
 输出能被 2 3 7 哪几个数整除，并按升序输出。
 int main()
 {
-//	int n = 0;
+/	int n = 0;
 //	int arr[] = { 2,3,7 };
 //	int i = 0;
 //	int count = 0;
