@@ -1151,7 +1151,7 @@ int main()
 	int arr[] = { 2,3,7 };
 	int i = 0;
 	int count = 0;
-/	scanf("%d", &n);
+	scanf("%d", &n);
 //	for (i = 0; i < 3; i++)
 //	{
 //		if (n % arr[i] == 0)
