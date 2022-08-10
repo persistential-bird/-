@@ -1154,7 +1154,7 @@ int main()
 	scanf("%d", &n);
 	for (i = 0; i < 3; i++)
 	{
-//		if (n % arr[i] == 0)
+/		if (n % arr[i] == 0)
 //		{
 //			printf("%d ", arr[i]);
 //			count++;
