@@ -1155,7 +1155,7 @@ int main()
 	for (i = 0; i < 3; i++)
 	{
 		if (n % arr[i] == 0)
-//		{
+/		{
 //			printf("%d ", arr[i]);
 //			count++;
 //		}
