@@ -1222,6 +1222,7 @@ int main()
 //	printf("size=%d\n", sizeof(struct message));//12
 //	return 0;
 //}
+
 //int main()
 //{
 //	int a[] = { 1, 2, 3, 4, 5 };
