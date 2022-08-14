@@ -1207,3 +1207,17 @@ int main()
 //	}
 //	return res;
 //}
+//union package {
+//	char head;
+//	int  body;
+//};
+//struct message {
+//	char id;
+//	int  crc;
+//	union package pack;
+//};
+//
+//int main() {
+//	printf("size=%d\n", sizeof(struct message));//12
+//	return 0;
+//}
