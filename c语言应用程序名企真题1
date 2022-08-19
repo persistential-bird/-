@@ -1182,7 +1182,7 @@ int main()
 // */
 int candy(int* arr, int arrLen) 
 {
-/	// write code here
+	// write code here
 //	int up = 0, down = 0, peak = 1, res = 1;
 //	for (int i = 1; i < arrLen; i++)
 //	{
