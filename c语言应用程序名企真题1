@@ -1187,7 +1187,7 @@ int candy(int* arr, int arrLen)
 	for (int i = 1; i < arrLen; i++)
 	{
 		res++;
-//		if (arr[i] > arr[i - 1]) {
+/		if (arr[i] > arr[i - 1]) {
 //			up++;
 //			res += up;
 //			down = 0;
