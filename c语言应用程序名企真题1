@@ -1198,7 +1198,7 @@ int candy(int* arr, int arrLen)
 			down = 0;
 			peak = 1;
 		}
-//		else {
+/		else {
 //			up = 0;
 //			res += down;
 //			down++;
