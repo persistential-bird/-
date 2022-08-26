@@ -1200,7 +1200,7 @@ int candy(int* arr, int arrLen)
 		}
 		else {
 			up = 0;
-//			res += down;
+/			res += down;
 //			down++;
 //			if (down >= peak)
 //				res++;
