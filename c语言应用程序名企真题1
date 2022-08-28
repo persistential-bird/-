@@ -1204,7 +1204,7 @@ int candy(int* arr, int arrLen)
 			down++;
 			if (down >= peak)
 				res++;
-//		}
+/		}
 //	}
 //	return res;
 //}
