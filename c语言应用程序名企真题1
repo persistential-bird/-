@@ -1207,7 +1207,7 @@ int candy(int* arr, int arrLen)
 		}
 	}
 	return res;
-/}
+}
 
 //union package {
 //	char head;
