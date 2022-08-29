@@ -1210,7 +1210,7 @@ int candy(int* arr, int arrLen)
 }
 
 union package {
-/	char head;
+	char head;
 //	int  body;
 //};
 //struct message {
