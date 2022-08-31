@@ -1212,7 +1212,7 @@ int candy(int* arr, int arrLen)
 union package {
 	char head;
 	int  body;
-/};
+};
 //struct message {
 //	char id;
 //	int  crc;
