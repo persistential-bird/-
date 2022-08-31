@@ -1214,7 +1214,7 @@ union package {
 	int  body;
 };
 struct message {
-/	char id;
+	char id;
 //	int  crc;
 //	union package pack;
 //};
