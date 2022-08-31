@@ -1213,7 +1213,7 @@ union package {
 	char head;
 	int  body;
 };
-/struct message {
+struct message {
 //	char id;
 //	int  crc;
 //	union package pack;
