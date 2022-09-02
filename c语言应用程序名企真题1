@@ -1220,7 +1220,7 @@ struct message {
 };
 
 int main() {
-/	printf("size=%d\n", sizeof(struct message));//12
+	printf("size=%d\n", sizeof(struct message));//12
 //	return 0;
 //}
 
