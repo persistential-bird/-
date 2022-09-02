@@ -1219,7 +1219,7 @@ struct message {
 	union package pack;
 };
 
-//int main() {
+/int main() {
 //	printf("size=%d\n", sizeof(struct message));//12
 //	return 0;
 //}
