@@ -1218,7 +1218,7 @@ struct message {
 	int  crc;
 	union package pack;
 };
-//
+/
 //int main() {
 //	printf("size=%d\n", sizeof(struct message));//12
 //	return 0;
