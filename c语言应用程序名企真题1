@@ -1245,3 +1245,24 @@ int main()
 数循环移至最前面的 M 个位置）。如果需要考虑程序移动数据的次数尽量少，要如何设计移动的方法？
 数据范围：0 <n≤100，0≤m≤1000
 进阶：空间复杂度 O(1)O(1)，时间复杂度 O(n)O(n)
+/**
+ * 旋转数组
+ * @param n int整型 数组长度
+ * @param m int整型 右移距离
+ * @param a int整型一维数组 给定数组
+ * @param aLen int a数组长度
+ * @return int整型一维数组
+ * @return int* returnSize 返回数组行数
+ *
+ * C语言声明定义全局变量请加上static，防止重复定义
+ */
+//int* solve(int n, int m, int* a, int aLen, int* returnSize) //使用额外数组(不可直接定义数组，需使用动态内存)
+//{
+//	int *b = (int *)malloc(sizeof(int) * n);
+//	for (int i = 0; i < n; i++)
+//	{
+//		b[(i + m) % n] = a[i];
+//	}
+//	*returnSize = n;
+//	return b;
+//}
