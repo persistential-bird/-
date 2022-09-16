@@ -1262,7 +1262,7 @@ int* solve(int n, int m, int* a, int aLen, int* returnSize) //使用额外数组
 	for (int i = 0; i < n; i++)
 	{
 		b[(i + m) % n] = a[i];
-//	}
+/	}
 //	*returnSize = n;
 //	return b;
 //}
