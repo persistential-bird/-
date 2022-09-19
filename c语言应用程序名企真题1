@@ -1269,7 +1269,7 @@ int* solve(int n, int m, int* a, int aLen, int* returnSize) //使用额外数组
 
 void reverse(int* a, int start, int end) //数组翻转
 {
-/	while (start < end)
+	while (start < end)
 //	{
 //		int temp = a[start];
 //		a[start] = a[end];
