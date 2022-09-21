@@ -1273,7 +1273,7 @@ void reverse(int* a, int start, int end) //数组翻转
 	{
 		int temp = a[start];
 		a[start] = a[end];
-//		a[end] = temp;
+/		a[end] = temp;
 //		start++;
 //		end--;
 //	}
