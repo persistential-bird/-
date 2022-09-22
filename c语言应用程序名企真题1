@@ -1275,7 +1275,7 @@ void reverse(int* a, int start, int end) //数组翻转
 		a[start] = a[end];
 		a[end] = temp;
 		start++;
-/		end--;
+		end--;
 //	}
 //}
 //int* solve(int n, int m, int* a, int aLen, int* returnSize) {
