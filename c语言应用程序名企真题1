@@ -1285,4 +1285,4 @@ int* solve(int n, int m, int* a, int aLen, int* returnSize) {
 	reverse(a, k, n - 1);
 	*returnSize = n;
 	return a;
-/}
+}
