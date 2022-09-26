@@ -1283,6 +1283,6 @@ int* solve(int n, int m, int* a, int aLen, int* returnSize) {
 	reverse(a, 0, n - 1);
 	reverse(a, 0, k - 1);
 	reverse(a, k, n - 1);
-//	*returnSize = n;
+/	*returnSize = n;
 //	return a;
 //}
