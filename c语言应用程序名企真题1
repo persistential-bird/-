@@ -1287,3 +1287,35 @@ int* solve(int n, int m, int* a, int aLen, int* returnSize) {
 	return a;
 }
 
+//void reverse(int* a, int start, int end) {
+//	while (start < end)
+//	{
+//		int temp = a[start];
+//		a[start] = a[end];
+//		a[end] = temp;
+//		start++;
+//		end--;
+//	}
+//}
+//int main()//vs调试版
+//{
+//	int n = 6;
+//	int m = 2;
+//	int a[6],b[6];
+//	for (int i = 0;i < n;i++)
+//		scanf("%d", &a[i]);
+//	int k = m % n;//数组翻转
+//	reverse(a, 0, n - 1);
+//	reverse(a, 0, k - 1);
+//	reverse(a, k, n - 1);
+//	for (int i = 0;i < n;i++)
+//		printf("%d ", a[i]);
+//	//for (int i = 0; i < n; ++i)//使用额外数组
+//	//{
+//	//	// 数组元素旋转
+//	//	b[(i + m) % n] = a[i];
+//	//}
+//	//for (int i = 0;i < n;i++)
+//	//	printf("%d ", b[i]);
+//	return 0;
+//}
