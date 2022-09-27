@@ -1287,7 +1287,7 @@ int* solve(int n, int m, int* a, int aLen, int* returnSize) {
 	return a;
 }
 
-/void reverse(int* a, int start, int end) {
+void reverse(int* a, int start, int end) {
 //	while (start < end)
 //	{
 //		int temp = a[start];
