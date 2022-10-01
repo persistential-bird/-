@@ -1295,7 +1295,7 @@ void reverse(int* a, int start, int end)
 		a[start] = a[end];
 		a[end] = temp;
 		start++;
-//		end--;
+/		end--;
 //	}
 //}
 //int main()//vs调试版
