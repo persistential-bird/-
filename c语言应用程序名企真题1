@@ -1298,7 +1298,7 @@ void reverse(int* a, int start, int end)
 		end--;
 	}
 }
-//int main()//vs调试版
+/int main()//vs调试版
 //{
 //	int n = 6;
 //	int m = 2;
