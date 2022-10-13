@@ -1317,6 +1317,6 @@ int main()//vs调试版
 	//	b[(i + m) % n] = a[i];
 	//}
 	//for (int i = 0;i < n;i++)
-/	//	printf("%d ", b[i]);
+	//	printf("%d ", b[i]);
 //	return 0;
 //}
