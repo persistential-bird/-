@@ -1318,5 +1318,5 @@ int main()//vs调试版
 	//}
 	//for (int i = 0;i < n;i++)
 	//	printf("%d ", b[i]);
-/	return 0;
+	return 0;
 //}
