@@ -1340,3 +1340,127 @@ Sample Input 1
 Sample Output 1
 1 2 3 4 5 6
 
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//typedef int Status;
+//
+//#define TRUE 1
+//#define FALSE 0
+//#define OK 1
+//#define ERROR 0
+//#define INFEASIBLE -1
+//#define OVERFLOW -2
+//
+//#define LIST_INIT_SIZE 200000
+//#define LIST_SIZE_INCREMENT 10
+//
+//typedef int ElemType;
+//
+//typedef struct SqList {
+//	ElemType *elem;
+//	int length, capacity;
+//} SqList;
+//Status InitList(SqList *L) {
+//	if (L == NULL) {
+//		return ERROR;
+//	}
+//
+//	L->elem = (ElemType *)malloc(LIST_INIT_SIZE * sizeof(ElemType));
+//	if (!L->elem) {
+//		exit(OVERFLOW);
+//	}
+//	L->length = 0;
+//	L->capacity = LIST_INIT_SIZE;
+//
+//	return OK;
+//}
+//Status GetElem(SqList L, int i, ElemType *e) {
+//	if (i < 1 || i > L.length) {
+//		return ERROR;
+//	}
+//
+//	*e = L.elem[i - 1];
+//
+//	return OK;
+//}
+//Status ListInsert(SqList *L, int i, ElemType e) {
+//	int j;
+//	ElemType *newElem;
+//
+//	if (i < 1 || i >(L->length + 1)) {
+//		return ERROR;
+//	}
+//
+//	if (L->length >= L->capacity) {
+//		newElem = (ElemType *)realloc(L->elem, (L->capacity + LIST_SIZE_INCREMENT) * sizeof(ElemType));
+//		if (!newElem) {
+//			exit(OVERFLOW);
+//		}
+//		L->elem = newElem;
+//		L->capacity += LIST_SIZE_INCREMENT;
+//	}
+//
+//	for (j = L->length; j >= i; --j) {
+//		L->elem[j] = L->elem[j - 1];
+//	}
+//	L->elem[i - 1] = e;
+//	L->length += 1;
+//
+//	return OK;
+//}
+//void ListTraverse(SqList L) {
+//	int i;
+//
+//	for (i = 0; i < L.length; i++) {
+//		printf("%d ", L.elem[i]);
+//	}
+//
+//	printf("\n");
+//}
+//void main() {
+//	int a, b, c, g;
+//	int i = 1;
+//	int j = 1;
+//	int k = 1;
+//	ElemType la, lb;
+//	SqList L;
+//	SqList La;
+//	SqList Lb;
+//	InitList(&L);
+//	InitList(&La);
+//	InitList(&Lb);
+//	scanf("%d", &a);
+//	for (g = 1;g <= a;g++) {
+//		scanf("%d", &c);
+//		ListInsert(&La, g, c);
+//	}
+//	scanf("%d", &b);
+//	for (g = 1;g <= b;g++) {
+//		scanf("%d", &c);
+//		ListInsert(&Lb, g, c);
+//	}
+//	while ((i <= a) && (j <= b)) {
+//		GetElem(La, i, &la);
+//		GetElem(Lb, j, &lb);
+//		if (la <= lb) {
+//			ListInsert(&L, k, la);
+//			++k;++i;
+//		}
+//		else {
+//			ListInsert(&L, k, lb);
+//			++k;++j;
+//		}
+//	}
+//	while (i <= a) {
+//		GetElem(La, i, &la);
+//		ListInsert(&L, k, la);
+//		k++;i++;
+//	}
+//	while (j <= b) {
+//		GetElem(Lb, j, &lb);
+//		ListInsert(&L, k, lb);
+//		k++;j++;
+//	}
+//	ListTraverse(L);
+//}
