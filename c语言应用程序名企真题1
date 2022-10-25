@@ -1340,7 +1340,7 @@ Sample Input 1
 Sample Output 1
 1 2 3 4 5 6
 #include <stdio.h>
-//#include <stdlib.h>
+/#include <stdlib.h>
 //
 //typedef int Status;
 //
