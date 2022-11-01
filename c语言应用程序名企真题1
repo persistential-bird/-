@@ -1353,7 +1353,7 @@ typedef int Status;
 #define LIST_INIT_SIZE 200000
 #define LIST_SIZE_INCREMENT 10
 
-//typedef int ElemType;
+/typedef int ElemType;
 //
 //typedef struct SqList {
 //	ElemType *elem;
