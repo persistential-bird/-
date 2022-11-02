@@ -1356,7 +1356,7 @@ typedef int Status;
 typedef int ElemType;
 
 typedef struct SqList {
-/	ElemType *elem;
+	ElemType *elem;
 //	int length, capacity;
 //} SqList;
 //Status InitList(SqList *L) {
