@@ -1359,7 +1359,7 @@ typedef struct SqList {
 	ElemType *elem;
 	int length, capacity;
 } SqList;
-/Status InitList(SqList *L) {
+Status InitList(SqList *L) {
 //	if (L == NULL) {
 //		return ERROR;
 //	}
