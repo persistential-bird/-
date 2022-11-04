@@ -1362,7 +1362,7 @@ typedef struct SqList {
 Status InitList(SqList *L) {
 	if (L == NULL) {
 		return ERROR;
-/	}
+	}
 //
 //	L->elem = (ElemType *)malloc(LIST_INIT_SIZE * sizeof(ElemType));
 //	if (!L->elem) {
