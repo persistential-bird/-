@@ -1366,7 +1366,7 @@ Status InitList(SqList *L) {
 
 	L->elem = (ElemType *)malloc(LIST_INIT_SIZE * sizeof(ElemType));
 	if (!L->elem) {
-/		exit(OVERFLOW);
+		exit(OVERFLOW);
 //	}
 //	L->length = 0;
 //	L->capacity = LIST_INIT_SIZE;
