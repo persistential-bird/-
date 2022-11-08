@@ -1370,7 +1370,7 @@ Status InitList(SqList *L) {
 	}
 	L->length = 0;
 	L->capacity = LIST_INIT_SIZE;
-//
+/
 //	return OK;
 //}
 //Status GetElem(SqList L, int i, ElemType *e) {
