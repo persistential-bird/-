@@ -1368,7 +1368,7 @@ Status InitList(SqList *L) {
 	if (!L->elem) {
 		exit(OVERFLOW);
 	}
-/	L->length = 0;
+	L->length = 0;
 //	L->capacity = LIST_INIT_SIZE;
 //
 //	return OK;
