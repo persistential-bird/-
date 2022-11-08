@@ -1369,7 +1369,7 @@ Status InitList(SqList *L) {
 		exit(OVERFLOW);
 	}
 	L->length = 0;
-//	L->capacity = LIST_INIT_SIZE;
+/	L->capacity = LIST_INIT_SIZE;
 //
 //	return OK;
 //}
