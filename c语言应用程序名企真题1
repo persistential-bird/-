@@ -1375,7 +1375,7 @@ Status InitList(SqList *L) {
 }
 Status GetElem(SqList L, int i, ElemType *e) {
 	if (i < 1 || i > L.length) {
-//		return ERROR;
+/		return ERROR;
 //	}
 //
 //	*e = L.elem[i - 1];
