@@ -1378,7 +1378,7 @@ Status GetElem(SqList L, int i, ElemType *e) {
 		return ERROR;
 	}
 
-//	*e = L.elem[i - 1];
+/	*e = L.elem[i - 1];
 //
 //	return OK;
 //}
