@@ -1382,7 +1382,7 @@ Status GetElem(SqList L, int i, ElemType *e) {
 
 	return OK;
 }
-//Status ListInsert(SqList *L, int i, ElemType e) {
+/Status ListInsert(SqList *L, int i, ElemType e) {
 //	int j;
 //	ElemType *newElem;
 //
