@@ -1385,7 +1385,7 @@ Status GetElem(SqList L, int i, ElemType *e) {
 Status ListInsert(SqList *L, int i, ElemType e) {
 	int j;
 	ElemType *newElem;
-/
+
 //	if (i < 1 || i >(L->length + 1)) {
 //		return ERROR;
 //	}
