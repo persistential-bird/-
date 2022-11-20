@@ -1391,7 +1391,7 @@ Status ListInsert(SqList *L, int i, ElemType e) {
 	}
 
 	if (L->length >= L->capacity) {
-/		newElem = (ElemType *)realloc(L->elem, (L->capacity + LIST_SIZE_INCREMENT) * sizeof(ElemType));
+		newElem = (ElemType *)realloc(L->elem, (L->capacity + LIST_SIZE_INCREMENT) * sizeof(ElemType));
 //		if (!newElem) {
 //			exit(OVERFLOW);
 //		}
