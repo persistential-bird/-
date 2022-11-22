@@ -1396,7 +1396,7 @@ Status ListInsert(SqList *L, int i, ElemType e) {
 			exit(OVERFLOW);
 		}
 		L->elem = newElem;
-//		L->capacity += LIST_SIZE_INCREMENT;
+/		L->capacity += LIST_SIZE_INCREMENT;
 //	}
 //
 //	for (j = L->length; j >= i; --j) {
