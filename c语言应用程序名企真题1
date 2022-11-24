@@ -1398,7 +1398,7 @@ Status ListInsert(SqList *L, int i, ElemType e) {
 		L->elem = newElem;
 		L->capacity += LIST_SIZE_INCREMENT;
 	}
-/
+
 //	for (j = L->length; j >= i; --j) {
 //		L->elem[j] = L->elem[j - 1];
 //	}
