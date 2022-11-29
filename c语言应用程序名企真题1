@@ -1406,7 +1406,7 @@ Status ListInsert(SqList *L, int i, ElemType e) {
 	L->length += 1;
 
 	return OK;
-/}
+}
 //void ListTraverse(SqList L) {
 //	int i;
 //
