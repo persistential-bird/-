@@ -1409,7 +1409,7 @@ Status ListInsert(SqList *L, int i, ElemType e) {
 }
 void ListTraverse(SqList L) {
 	int i;
-/
+
 //	for (i = 0; i < L.length; i++) {
 //		printf("%d ", L.elem[i]);
 //	}
