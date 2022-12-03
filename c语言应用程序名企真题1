@@ -1416,7 +1416,7 @@ void ListTraverse(SqList L) {
 
 	printf("\n");
 }
-/void main() {
+void main() {
 //	int a, b, c, g;
 //	int i = 1;
 //	int j = 1;
