@@ -1419,7 +1419,7 @@ void ListTraverse(SqList L) {
 void main() {
 	int a, b, c, g;
 	int i = 1;
-/	int j = 1;
+	int j = 1;
 //	int k = 1;
 //	ElemType la, lb;
 //	SqList L;
