@@ -1422,7 +1422,7 @@ void main() {
 	int j = 1;
 	int k = 1;
 	ElemType la, lb;
-//	SqList L;
+/	SqList L;
 //	SqList La;
 //	SqList Lb;
 //	InitList(&L);
