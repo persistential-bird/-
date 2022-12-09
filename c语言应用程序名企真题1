@@ -1424,7 +1424,7 @@ void main() {
 	ElemType la, lb;
 	SqList L;
 	SqList La;
-//	SqList Lb;
+/	SqList Lb;
 //	InitList(&L);
 //	InitList(&La);
 //	InitList(&Lb);
