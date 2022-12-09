@@ -1425,7 +1425,7 @@ void main() {
 	SqList L;
 	SqList La;
 	SqList Lb;
-//	InitList(&L);
+/	InitList(&L);
 //	InitList(&La);
 //	InitList(&Lb);
 //	scanf("%d", &a);
