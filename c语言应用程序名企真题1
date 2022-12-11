@@ -1428,7 +1428,7 @@ void main() {
 	InitList(&L);
 	InitList(&La);
 	InitList(&Lb);
-//	scanf("%d", &a);
+/	scanf("%d", &a);
 //	for (g = 1;g <= a;g++) {
 //		scanf("%d", &c);
 //		ListInsert(&La, g, c);
