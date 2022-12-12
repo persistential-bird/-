@@ -1429,7 +1429,7 @@ void main() {
 	InitList(&La);
 	InitList(&Lb);
 	scanf("%d", &a);
-//	for (g = 1;g <= a;g++) {
+/	for (g = 1;g <= a;g++) {
 //		scanf("%d", &c);
 //		ListInsert(&La, g, c);
 //	}
