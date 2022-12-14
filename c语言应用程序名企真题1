@@ -1433,7 +1433,7 @@ void main() {
 		scanf("%d", &c);
 		ListInsert(&La, g, c);
 	}
-//	scanf("%d", &b);
+/	scanf("%d", &b);
 //	for (g = 1;g <= b;g++) {
 //		scanf("%d", &c);
 //		ListInsert(&Lb, g, c);
