@@ -1434,7 +1434,7 @@ void main() {
 		ListInsert(&La, g, c);
 	}
 	scanf("%d", &b);
-//	for (g = 1;g <= b;g++) {
+/	for (g = 1;g <= b;g++) {
 //		scanf("%d", &c);
 //		ListInsert(&Lb, g, c);
 //	}
