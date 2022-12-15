@@ -1436,7 +1436,7 @@ void main() {
 	scanf("%d", &b);
 	for (g = 1;g <= b;g++) {
 		scanf("%d", &c);
-//		ListInsert(&Lb, g, c);
+/		ListInsert(&Lb, g, c);
 //	}
 //	while ((i <= a) && (j <= b)) {
 //		GetElem(La, i, &la);
