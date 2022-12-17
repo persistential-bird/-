@@ -1440,7 +1440,7 @@ void main() {
 	}
 	while ((i <= a) && (j <= b)) {
 		GetElem(La, i, &la);
-//		GetElem(Lb, j, &lb);
+/		GetElem(Lb, j, &lb);
 //		if (la <= lb) {
 //			ListInsert(&L, k, la);
 //			++k;++i;
