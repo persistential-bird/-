@@ -1442,7 +1442,7 @@ void main() {
 		GetElem(La, i, &la);
 		GetElem(Lb, j, &lb);
 		if (la <= lb) {
-//			ListInsert(&L, k, la);
+/			ListInsert(&L, k, la);
 //			++k;++i;
 //		}
 //		else {
