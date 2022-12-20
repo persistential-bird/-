@@ -1444,7 +1444,7 @@ void main() {
 		if (la <= lb) {
 			ListInsert(&L, k, la);
 			++k;++i;
-/		}
+		}
 //		else {
 //			ListInsert(&L, k, lb);
 //			++k;++j;
