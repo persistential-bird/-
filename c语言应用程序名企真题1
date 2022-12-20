@@ -1445,7 +1445,7 @@ void main() {
 			ListInsert(&L, k, la);
 			++k;++i;
 		}
-/		else {
+		else {
 //			ListInsert(&L, k, lb);
 //			++k;++j;
 //		}
