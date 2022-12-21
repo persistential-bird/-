@@ -1447,7 +1447,7 @@ void main() {
 		}
 		else {
 			ListInsert(&L, k, lb);
-//			++k;++j;
+/			++k;++j;
 //		}
 //	}
 //	while (i <= a) {
