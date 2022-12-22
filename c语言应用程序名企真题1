@@ -1448,7 +1448,7 @@ void main() {
 		else {
 			ListInsert(&L, k, lb);
 			++k;++j;
-/		}
+		}
 //	}
 //	while (i <= a) {
 //		GetElem(La, i, &la);
