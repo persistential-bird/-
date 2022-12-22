@@ -1450,7 +1450,7 @@ void main() {
 			++k;++j;
 		}
 	}
-//	while (i <= a) {
+/	while (i <= a) {
 //		GetElem(La, i, &la);
 //		ListInsert(&L, k, la);
 //		k++;i++;
