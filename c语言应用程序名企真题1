@@ -1454,7 +1454,7 @@ void main() {
 		GetElem(La, i, &la);
 		ListInsert(&L, k, la);
 		k++;i++;
-//	}
+/	}
 //	while (j <= b) {
 //		GetElem(Lb, j, &lb);
 //		ListInsert(&L, k, lb);
