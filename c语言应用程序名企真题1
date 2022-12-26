@@ -1458,7 +1458,7 @@ void main() {
 	while (j <= b) {
 		GetElem(Lb, j, &lb);
 		ListInsert(&L, k, lb);
-//		k++;j++;
+/		k++;j++;
 //	}
 //	ListTraverse(L);
 //}
