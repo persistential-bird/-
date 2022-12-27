@@ -1459,6 +1459,6 @@ void main() {
 		GetElem(Lb, j, &lb);
 		ListInsert(&L, k, lb);
 		k++;j++;
-/	}
+	}
 //	ListTraverse(L);
 //}
