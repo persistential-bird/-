@@ -1460,5 +1460,5 @@ void main() {
 		ListInsert(&L, k, lb);
 		k++;j++;
 	}
-//	ListTraverse(L);
+/	ListTraverse(L);
 //}
