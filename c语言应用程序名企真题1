@@ -1462,3 +1462,40 @@ void main() {
 	}
 	ListTraverse(L);
 }
+//病毒变种检测
+//Description
+//2020年初，新冠肺炎疫情肆虐全球，造成数百万人死亡和巨大的经济损失。新冠病毒是RNA病毒，在繁殖过程中非常容易发生突变，目前已产生了多个
+//流行全球的变种：Alpha，Delta和Omicron。
+//判断病毒所属变种的方式是将病毒的RNA序列与变异库中的RNA序列比对，若病毒RNA序列包含变异库中的RNA序列，则病毒属于该变异库中的某个变种。
+//请你编写程序完成病毒RNA序列的检测。
+//Input
+//第一行包含一个整数N(N <= 100)，表示变异库中变种的个数。
+//接下来的N行中，每一行包含一个字符串，表示变种关键突变点的RNA序列，长度不超过100。
+//第N + 2行包含一个整数M(M <= 1000)，表示待检测病毒的个数。
+//接下来的M行中，每一行包含一个字符串，表示病毒RNA序列，长度不超过10000。
+//Output
+//输出M行，每一行包含一个整数，表示病毒所属变种的编号(从0开始)。
+//若病毒属于多个变种，则输出第一个。
+//若该病毒不属于任何变种，则输出“ - 1”。
+//Sample Input 1
+//4
+//AUUGG
+//AAAAA
+//AGUAAGGC
+//CCUGGCA
+//7
+//CGCUAAUAAUGUUGCG
+//GGCGCGGGCGAGUAAGGCCGUUU
+//UAGACACAACUA
+//GUUUGAUAUGAUUGGAC
+//GAUCAGACGGCCUGGCAAC
+//AAGACAGCAAACGGA
+//AAUUAAAAAUGGUUCA
+//Sample Output 1
+//- 1
+//2
+//- 1
+//0
+//3
+//- 1
+//1
