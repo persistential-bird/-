@@ -1479,7 +1479,7 @@ Output
 若病毒属于多个变种，则输出第一个。
 若该病毒不属于任何变种，则输出“ - 1”。
 Sample Input 1
-//4
+/4
 //AUUGG
 //AAAAA
 //AGUAAGGC
