@@ -1501,7 +1501,7 @@ Sample Output 1
 -1
 1
 #include <string.h>
-/#include <stdio.h>
+#include <stdio.h>
 //
 ///* 完成get_next和kmp函数 */
 //
