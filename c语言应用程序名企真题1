@@ -1504,7 +1504,7 @@ Sample Output 1
 #include <string.h>
 #include <stdio.h>
 
-//* 完成get_next和kmp函数 */
+/* 完成get_next和kmp函数 */
 //
 ///* 生成子串t的next数组。下标从0开始 */
 //void get_next(char *t, int next[]) {
