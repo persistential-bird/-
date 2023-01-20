@@ -1506,7 +1506,7 @@ Sample Output 1
 
 /* 完成get_next和kmp函数 */
 
-//* 生成子串t的next数组。下标从0开始 */
+/* 生成子串t的next数组。下标从0开始 */
 //void get_next(char *t, int next[]) {
 //	int i = 0, j = -1, len_t;
 //	len_t = strlen(t);
