@@ -1513,7 +1513,7 @@ void get_next(char *t, int next[]) {
 	next[0] = -1;
 	while (i < len_t)
 	{
-/		if (j == -1 || t[i] == t[j])
+		if (j == -1 || t[i] == t[j])
 //		{
 //			i++;
 //			j++;
