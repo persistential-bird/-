@@ -1518,7 +1518,7 @@ void get_next(char *t, int next[]) {
 			i++;
 			j++;
 			next[i] = j;
-//		}
+/		}
 //		else
 //		{
 //			j = next[j];
