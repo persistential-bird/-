@@ -1520,7 +1520,7 @@ void get_next(char *t, int next[]) {
 			next[i] = j;
 		}
 		else
-/		{
+		{
 //			j = next[j];
 //		}
 //	}
