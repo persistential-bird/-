@@ -1523,5 +1523,5 @@ void get_next(char *t, int next[]) {
 		{
 			j = next[j];
 		}
-//	}
+/	}
 //}
