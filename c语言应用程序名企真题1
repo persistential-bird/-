@@ -1525,7 +1525,7 @@ void get_next(char *t, int next[]) {
 	}
 }
 
-///* KMP算法：在主串s中查找子串t的位置，若找不到则返回-1。下标从0开始 */
+//* KMP算法：在主串s中查找子串t的位置，若找不到则返回-1。下标从0开始 */
 //int kmp(char *s, char *t, int next[]) {
 //	int i = 0, j = 0, len_s, len_t;
 //	len_s = strlen(s);
