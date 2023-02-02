@@ -1529,7 +1529,7 @@ void get_next(char *t, int next[]) {
 int kmp(char *s, char *t, int next[]) {
 	int i = 0, j = 0, len_s, len_t;
 	len_s = strlen(s);
-/	len_t = strlen(t);
+	len_t = strlen(t);
 //	while (i < len_s&&j < len_t)
 //	{
 //		if (j == -1 || s[i] == t[j])
