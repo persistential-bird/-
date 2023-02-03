@@ -1532,7 +1532,7 @@ int kmp(char *s, char *t, int next[]) {
 	len_t = strlen(t);
 	while (i < len_s&&j < len_t)
 	{
-/		if (j == -1 || s[i] == t[j])
+		if (j == -1 || s[i] == t[j])
 //		{
 //			i++;
 //			j++;
