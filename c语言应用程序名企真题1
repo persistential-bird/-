@@ -1534,7 +1534,7 @@ int kmp(char *s, char *t, int next[]) {
 	{
 		if (j == -1 || s[i] == t[j])
 		{
-//			i++;
+/			i++;
 //			j++;
 //		}
 //		else
