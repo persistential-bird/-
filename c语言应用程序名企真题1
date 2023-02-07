@@ -1541,7 +1541,7 @@ int kmp(char *s, char *t, int next[]) {
 		{
 			j = next[j];
 		}
-//	}
+/	}
 //	if (j >= len_t)
 //		return i - len_t + 1;
 //	else
