@@ -1539,7 +1539,7 @@ int kmp(char *s, char *t, int next[]) {
 		}
 		else
 		{
-/			j = next[j];
+			j = next[j];
 //		}
 //	}
 //	if (j >= len_t)
