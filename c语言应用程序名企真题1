@@ -1543,7 +1543,7 @@ int kmp(char *s, char *t, int next[]) {
 		}
 	}
 	if (j >= len_t)
-//		return i - len_t + 1;
+/		return i - len_t + 1;
 //	else
 //		return -1;
 //
