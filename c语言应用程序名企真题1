@@ -1548,7 +1548,7 @@ int kmp(char *s, char *t, int next[]) {
 		return -1;
 
 }
-/
+
 //char variants[100][101];
 //char virus[1000][10001];
 //
