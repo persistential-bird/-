@@ -1552,3 +1552,35 @@ int kmp(char *s, char *t, int next[]) {
 char variants[100][101];
 char virus[1000][10001];
 
+//int next[100][101];
+//
+//int main() {
+//	int N, M, i, j, v;
+//
+//	scanf("%d", &N);
+//	for (i = 0; i < N; ++i) {
+//		scanf("%s", variants[i]);
+//	}
+//
+//	scanf("%d", &M);
+//	for (i = 0; i < M; ++i) {
+//		scanf("%s", virus[i]);
+//	}
+//
+//	for (i = 0; i < N; ++i) {
+//		get_next(variants[i], next[i]);
+//	}
+//
+//	for (i = 0; i < M; ++i) {
+//		v = -1;
+//		for (j = 0; j < N; ++j) {
+//			if (kmp(virus[i], variants[j], next[j]) != -1) {
+//				v = j;
+//				break;
+//			}
+//		}
+//		printf("%d\n", v);
+//	}
+//
+//	return 0;
+//}
