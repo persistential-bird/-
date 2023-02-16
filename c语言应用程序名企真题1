@@ -1556,7 +1556,7 @@ int next[100][101];
 
 int main() {
 	int N, M, i, j, v;
-/
+
 //	scanf("%d", &N);
 //	for (i = 0; i < N; ++i) {
 //		scanf("%s", variants[i]);
