@@ -1558,7 +1558,7 @@ int main() {
 	int N, M, i, j, v;
 
 	scanf("%d", &N);
-/	for (i = 0; i < N; ++i) {
+	for (i = 0; i < N; ++i) {
 //		scanf("%s", variants[i]);
 //	}
 //
