@@ -1562,7 +1562,7 @@ int main() {
 		scanf("%s", variants[i]);
 	}
 
-//	scanf("%d", &M);
+/	scanf("%d", &M);
 //	for (i = 0; i < M; ++i) {
 //		scanf("%s", virus[i]);
 //	}
