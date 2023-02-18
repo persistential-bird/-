@@ -1564,7 +1564,7 @@ int main() {
 
 	scanf("%d", &M);
 	for (i = 0; i < M; ++i) {
-//		scanf("%s", virus[i]);
+/		scanf("%s", virus[i]);
 //	}
 //
 //	for (i = 0; i < N; ++i) {
