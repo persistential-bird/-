@@ -1568,7 +1568,7 @@ int main() {
 	}
 
 	for (i = 0; i < N; ++i) {
-//		get_next(variants[i], next[i]);
+/		get_next(variants[i], next[i]);
 //	}
 //
 //	for (i = 0; i < M; ++i) {
