@@ -1570,7 +1570,7 @@ int main() {
 	for (i = 0; i < N; ++i) {
 		get_next(variants[i], next[i]);
 	}
-//
+/
 //	for (i = 0; i < M; ++i) {
 //		v = -1;
 //		for (j = 0; j < N; ++j) {
