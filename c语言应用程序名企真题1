@@ -1571,7 +1571,7 @@ int main() {
 		get_next(variants[i], next[i]);
 	}
 
-/	for (i = 0; i < M; ++i) {
+	for (i = 0; i < M; ++i) {
 //		v = -1;
 //		for (j = 0; j < N; ++j) {
 //			if (kmp(virus[i], variants[j], next[j]) != -1) {
