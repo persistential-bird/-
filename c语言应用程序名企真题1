@@ -1575,7 +1575,7 @@ int main() {
 		v = -1;
 		for (j = 0; j < N; ++j) {
 			if (kmp(virus[i], variants[j], next[j]) != -1) {
-/				v = j;
+				v = j;
 //				break;
 //			}
 //		}
