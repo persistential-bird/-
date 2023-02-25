@@ -1578,7 +1578,7 @@ int main() {
 				v = j;
 				break;
 			}
-/		}
+		}
 //		printf("%d\n", v);
 //	}
 //
