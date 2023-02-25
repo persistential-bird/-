@@ -1577,7 +1577,7 @@ int main() {
 			if (kmp(virus[i], variants[j], next[j]) != -1) {
 				v = j;
 				break;
-/			}
+			}
 //		}
 //		printf("%d\n", v);
 //	}
