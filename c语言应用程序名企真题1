@@ -1579,7 +1579,7 @@ int main() {
 				break;
 			}
 		}
-/		printf("%d\n", v);
+		printf("%d\n", v);
 //	}
 //
 //	return 0;
