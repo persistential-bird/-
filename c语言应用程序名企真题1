@@ -1594,7 +1594,7 @@ Input
 Output
 输出只有1行，该二叉树的前序遍历结果。
 Sample Input 1
-/ABCDEFG
+ABCDEFG
 //ACBFGED
 //Sample Output 1
 //DBACEGF
