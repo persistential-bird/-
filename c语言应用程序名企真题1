@@ -1597,7 +1597,7 @@ Sample Input 1
 ABCDEFG
 ACBFGED
 Sample Output 1
-//DBACEGF
+/DBACEGF
 //#include <stdio.h>
 //#include <stdlib.h>
 //#include <string.h>
