@@ -1602,3 +1602,22 @@ DBACEGF
 #include <stdlib.h>
 #include <string.h>
 
+//typedef int Status;
+//
+//#define TRUE 1
+//#define FALSE 0
+//#define OK 1
+//#define ERROR 0
+//#define INFEASIBLE -1
+//#define OVERFLOW -2
+//
+///* 二叉树元素类型定义 */
+//typedef char TElemType;
+//
+///* 二叉树结点定义 */
+//typedef struct BiTNode {
+//	TElemType data;         // 结点元素
+//	struct BiTNode *lchild; // 左孩子指针
+//	struct BiTNode *rchild; // 右孩子指针
+//} BiTNode;
+//
