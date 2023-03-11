@@ -1603,7 +1603,7 @@ DBACEGF
 #include <string.h>
 
 typedef int Status;
-//
+/
 //#define TRUE 1
 //#define FALSE 0
 //#define OK 1
