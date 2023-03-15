@@ -1610,7 +1610,7 @@ typedef int Status;
 #define ERROR 0
 #define INFEASIBLE -1
 #define OVERFLOW -2
-/
+
 ///* 二叉树元素类型定义 */
 //typedef char TElemType;
 //
