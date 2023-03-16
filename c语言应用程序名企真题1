@@ -1613,7 +1613,7 @@ typedef int Status;
 
 /* 二叉树元素类型定义 */
 typedef char TElemType;
-/
+
 ///* 二叉树结点定义 */
 //typedef struct BiTNode {
 //	TElemType data;         // 结点元素
