@@ -1620,4 +1620,4 @@ typedef struct BiTNode {
 	struct BiTNode *lchild; // 左孩子指针
 	struct BiTNode *rchild; // 右孩子指针
 } BiTNode;
-/
+
