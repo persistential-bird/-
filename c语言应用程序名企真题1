@@ -1621,7 +1621,7 @@ typedef struct BiTNode {
 	struct BiTNode *rchild; // 右孩子指针
 } BiTNode;
 
-///* 指向二叉树结点的指针 */
+//* 指向二叉树结点的指针 */
 //typedef BiTNode *BiTree;
 //
 //typedef void(*Visit)(TElemType);
