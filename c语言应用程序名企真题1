@@ -1622,7 +1622,7 @@ typedef struct BiTNode {
 } BiTNode;
 
 /* 指向二叉树结点的指针 */
-/typedef BiTNode *BiTree;
+typedef BiTNode *BiTree;
 //
 //typedef void(*Visit)(TElemType);
 //
