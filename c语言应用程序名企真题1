@@ -1621,3 +1621,25 @@ typedef struct BiTNode {
 	struct BiTNode *rchild; // 右孩子指针
 } BiTNode;
 
+///* 指向二叉树结点的指针 */
+//typedef BiTNode *BiTree;
+//
+//typedef void(*Visit)(TElemType);
+//
+//void print(TElemType e) { printf("%c", e); }
+//
+///*
+// * 初始化
+// *
+// * 构造空二叉树。
+// */
+//Status InitBiTree(BiTree *T) {
+//	if (T == NULL) {
+//		return ERROR;
+//	}
+//
+//	*T = NULL;
+//
+//	return OK;
+//}
+//
