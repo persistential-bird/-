@@ -1626,7 +1626,7 @@ typedef BiTNode *BiTree;
 
 typedef void(*Visit)(TElemType);
 
-/void print(TElemType e) { printf("%c", e); }
+void print(TElemType e) { printf("%c", e); }
 //
 ///*
 // * 初始化
