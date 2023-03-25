@@ -1632,7 +1632,7 @@ void print(TElemType e) { printf("%c", e); }
 // * 初始化
 // *
 // * 构造空二叉树。
-// */
+/ */
 //Status InitBiTree(BiTree *T) {
 //	if (T == NULL) {
 //		return ERROR;
