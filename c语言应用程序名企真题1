@@ -1636,7 +1636,7 @@ void print(TElemType e) { printf("%c", e); }
 */
 Status InitBiTree(BiTree *T) {
 	if (T == NULL) {
-/		return ERROR;
+		return ERROR;
 //	}
 //
 //	*T = NULL;
