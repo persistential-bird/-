@@ -1640,7 +1640,7 @@ Status InitBiTree(BiTree *T) {
 、、	}
 
 	*T = NULL;
-//
+/
 //	return OK;
 //}
 //
