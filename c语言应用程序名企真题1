@@ -1644,7 +1644,7 @@ Status InitBiTree(BiTree *T) {
 	return OK;
 }
 
-///*
+//*
 // * 销毁
 // */
 //Status DestroyBiTree(BiTree *T) {
