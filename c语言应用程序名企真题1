@@ -1645,7 +1645,7 @@ Status InitBiTree(BiTree *T) {
 }
 
 /*
-/* 销毁
+* 销毁
 // */
 //Status DestroyBiTree(BiTree *T) {
 //	// 无需销毁，使用置空就可以
