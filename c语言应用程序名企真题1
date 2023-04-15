@@ -1650,5 +1650,5 @@ Status InitBiTree(BiTree *T) {
 Status DestroyBiTree(BiTree *T) {
 	// 无需销毁，使用置空就可以
 	return ERROR;
-//}
+/}
 //
