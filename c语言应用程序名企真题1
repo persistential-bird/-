@@ -1657,7 +1657,7 @@ Status DestroyBiTree(BiTree *T) {
 *
 * 清理二叉树中的数据，使其成为空树。
 */
-//Status ClearBiTree(BiTree *T) {
+/Status ClearBiTree(BiTree *T) {
 //	if (T == NULL) {
 //		return ERROR;
 //	}
