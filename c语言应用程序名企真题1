@@ -1659,7 +1659,7 @@ Status DestroyBiTree(BiTree *T) {
 */
 
 Status ClearBiTree(BiTree *T) {
-/	if (T == NULL) {
+	if (T == NULL) {
 //		return ERROR;
 //	}
 //
