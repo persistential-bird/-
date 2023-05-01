@@ -1661,7 +1661,7 @@ Status DestroyBiTree(BiTree *T) {
 Status ClearBiTree(BiTree *T) {
 	if (T == NULL) {
 		return ERROR;
-/	}
+	}
 //
 //	// 在*T不为空时进行递归清理
 //	if (*T) {
