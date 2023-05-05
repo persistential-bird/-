@@ -1664,7 +1664,7 @@ Status ClearBiTree(BiTree *T) {
 	}
 
 	// 在*T不为空时进行递归清理
-//	if (*T) {
+/	if (*T) {
 //		if ((*T)->lchild != NULL) {
 //			ClearBiTree(&((*T)->lchild));
 //		}
