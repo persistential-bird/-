@@ -1669,7 +1669,7 @@ Status ClearBiTree(BiTree *T) {
 			ClearBiTree(&((*T)->lchild));
 		}
 
-/		if ((*T)->rchild != NULL) {
+		if ((*T)->rchild != NULL) {
 //			ClearBiTree(&((*T)->rchild));
 //		}
 //
