@@ -1673,7 +1673,7 @@ Status ClearBiTree(BiTree *T) {
 			ClearBiTree(&((*T)->rchild));
 		}
 
-//		free(*T);
+/		free(*T);
 //		*T = NULL;
 //	}
 //
