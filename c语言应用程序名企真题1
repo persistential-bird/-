@@ -1677,5 +1677,5 @@ Status ClearBiTree(BiTree *T) {
 		*T = NULL;
 	}
 
-/	return OK;
+	return OK;
 //}
